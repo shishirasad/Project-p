@@ -1,0 +1,57 @@
+{
+  "core": {
+    "ink": "#141414",
+    "charcoal": "#242424",
+    "paper": "#F7F6F1",
+    "white": "#FFFFFF",
+    "stone": "#D9D6CE",
+    "smoke": "#5F5C55",
+    "silk": "#ECE7DF",
+    "brass": "#9B7A4A",
+    "forest": "#24342B",
+    "oxblood": "#5B2530",
+    "mineral": "#D9E3E2",
+    "error": "#B42318",
+    "success": "#1E6B45",
+    "warning": "#A15C07",
+    "info": "#245B7A"
+  },
+  "themes": {
+    "house": {
+      "background": "{core.paper}",
+      "surface": "{core.white}",
+      "text": "{core.ink}",
+      "textMuted": "{core.smoke}",
+      "border": "{core.stone}",
+      "accent": "{core.brass}",
+      "accentSecondary": "{core.forest}",
+      "hoverSurface": "{core.silk}",
+      "onAccent": "{core.ink}",
+      "onError": "{core.white}"
+    },
+    "faris": {
+      "background": "{core.white}",
+      "surface": "{core.paper}",
+      "text": "{core.ink}",
+      "textMuted": "{core.smoke}",
+      "border": "{core.stone}",
+      "accent": "{core.forest}",
+      "accentSecondary": "{core.brass}",
+      "hoverSurface": "{core.mineral}",
+      "onAccent": "{core.paper}",
+      "onError": "{core.white}"
+    },
+    "laaj": {
+      "background": "{core.white}",
+      "surface": "{core.paper}",
+      "text": "{core.ink}",
+      "textMuted": "{core.smoke}",
+      "border": "{core.stone}",
+      "accent": "{core.oxblood}",
+      "accentSecondary": "{core.brass}",
+      "hoverSurface": "{core.silk}",
+      "onAccent": "{core.paper}",
+      "onError": "{core.white}"
+    }
+  }
+}

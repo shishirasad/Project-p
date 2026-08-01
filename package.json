@@ -1,0 +1,24 @@
+{
+  "name": "porsion-studio-platform",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.15.4",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @porsion/web dev",
+    "build": "pnpm --filter @porsion/web build",
+    "start": "pnpm --filter @porsion/web start",
+    "lint": "pnpm --filter @porsion/web lint",
+    "typecheck": "pnpm --recursive --if-present typecheck",
+    "test": "pnpm --recursive --if-present test",
+    "storybook": "pnpm --filter @porsion/web storybook",
+    "storybook:build": "pnpm --filter @porsion/web storybook:build",
+    "qa:storybook": "pnpm --filter @porsion/web qa:storybook"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

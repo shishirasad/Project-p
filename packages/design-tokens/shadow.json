@@ -1,0 +1,17 @@
+{
+  "shadow": {
+    "none": "none",
+    "hairline": "0 0 0 1px rgba(20,20,20,.08)",
+    "soft": "0 8px 28px rgba(20,20,20,.08)",
+    "overlay": "0 18px 60px rgba(20,20,20,.16)"
+  },
+  "zIndex": {
+    "base": 0,
+    "sticky": 20,
+    "nav": 40,
+    "drawer": 60,
+    "modal": 80,
+    "toast": 100,
+    "command": 120
+  }
+}

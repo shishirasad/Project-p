@@ -1,0 +1,1576 @@
+{
+  "screenshots": [
+    {
+      "id": "commerce-addtobagbutton--default",
+      "title": "Commerce/AddToBagButton",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-addtobagbutton--default.png"
+    },
+    {
+      "id": "commerce-colorswatch--default",
+      "title": "Commerce/ColorSwatch",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-colorswatch--default.png"
+    },
+    {
+      "id": "commerce-comparebutton--default",
+      "title": "Commerce/CompareButton",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-comparebutton--default.png"
+    },
+    {
+      "id": "commerce-deliverybadge--default",
+      "title": "Commerce/DeliveryBadge",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-deliverybadge--default.png"
+    },
+    {
+      "id": "commerce-productbadge--default",
+      "title": "Commerce/ProductBadge",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-productbadge--default.png"
+    },
+    {
+      "id": "commerce-productcard--default",
+      "title": "Commerce/ProductCard",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-productcard--default.png"
+    },
+    {
+      "id": "commerce-productcarousel--default",
+      "title": "Commerce/ProductCarousel",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-productcarousel--default.png"
+    },
+    {
+      "id": "commerce-productgallery--default",
+      "title": "Commerce/ProductGallery",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-productgallery--default.png"
+    },
+    {
+      "id": "commerce-productimage--default",
+      "title": "Commerce/ProductImage",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-productimage--default.png"
+    },
+    {
+      "id": "commerce-productprice--default",
+      "title": "Commerce/ProductPrice",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-productprice--default.png"
+    },
+    {
+      "id": "commerce-producttitle--default",
+      "title": "Commerce/ProductTitle",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-producttitle--default.png"
+    },
+    {
+      "id": "commerce-rating--default",
+      "title": "Commerce/Rating",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-rating--default.png"
+    },
+    {
+      "id": "commerce-recentlyviewedstrip--default",
+      "title": "Commerce/RecentlyViewedStrip",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-recentlyviewedstrip--default.png"
+    },
+    {
+      "id": "commerce-relatedproductsstrip--default",
+      "title": "Commerce/RelatedProductsStrip",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-relatedproductsstrip--default.png"
+    },
+    {
+      "id": "commerce-returnbadge--default",
+      "title": "Commerce/ReturnBadge",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-returnbadge--default.png"
+    },
+    {
+      "id": "commerce-reviewsummary--default",
+      "title": "Commerce/ReviewSummary",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-reviewsummary--default.png"
+    },
+    {
+      "id": "commerce-sizeselector--default",
+      "title": "Commerce/SizeSelector",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-sizeselector--default.png"
+    },
+    {
+      "id": "commerce-stockindicator--default",
+      "title": "Commerce/StockIndicator",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-stockindicator--default.png"
+    },
+    {
+      "id": "commerce-variantselector--default",
+      "title": "Commerce/VariantSelector",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-variantselector--default.png"
+    },
+    {
+      "id": "commerce-wishlistbutton--default",
+      "title": "Commerce/WishlistButton",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/commerce-wishlistbutton--default.png"
+    },
+    {
+      "id": "editorial-brandgateway--default",
+      "title": "Editorial/BrandGateway",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-brandgateway--default.png"
+    },
+    {
+      "id": "editorial-campaignblock--default",
+      "title": "Editorial/CampaignBlock",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-campaignblock--default.png"
+    },
+    {
+      "id": "editorial-ctasection--default",
+      "title": "Editorial/CTASection",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-ctasection--default.png"
+    },
+    {
+      "id": "editorial-editorialcard--default",
+      "title": "Editorial/EditorialCard",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-editorialcard--default.png"
+    },
+    {
+      "id": "editorial-hero--default",
+      "title": "Editorial/Hero",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-hero--default.png"
+    },
+    {
+      "id": "editorial-imagenarrative--default",
+      "title": "Editorial/ImageNarrative",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-imagenarrative--default.png"
+    },
+    {
+      "id": "editorial-mediablock--default",
+      "title": "Editorial/MediaBlock",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-mediablock--default.png"
+    },
+    {
+      "id": "editorial-quoteblock--default",
+      "title": "Editorial/QuoteBlock",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-quoteblock--default.png"
+    },
+    {
+      "id": "editorial-splitfeature--default",
+      "title": "Editorial/SplitFeature",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/editorial-splitfeature--default.png"
+    },
+    {
+      "id": "feedback-alert--default",
+      "title": "Feedback/Alert",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-alert--default.png"
+    },
+    {
+      "id": "feedback-banner--default",
+      "title": "Feedback/Banner",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-banner--default.png"
+    },
+    {
+      "id": "feedback-circularprogress--default",
+      "title": "Feedback/CircularProgress",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-circularprogress--default.png"
+    },
+    {
+      "id": "feedback-emptystate--default",
+      "title": "Feedback/EmptyState",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-emptystate--default.png"
+    },
+    {
+      "id": "feedback-errorstate--default",
+      "title": "Feedback/ErrorState",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-errorstate--default.png"
+    },
+    {
+      "id": "feedback-inlinealert--default",
+      "title": "Feedback/InlineAlert",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-inlinealert--default.png"
+    },
+    {
+      "id": "feedback-loadingstate--default",
+      "title": "Feedback/LoadingState",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-loadingstate--default.png"
+    },
+    {
+      "id": "feedback-progressbar--default",
+      "title": "Feedback/ProgressBar",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-progressbar--default.png"
+    },
+    {
+      "id": "feedback-statusbadge--default",
+      "title": "Feedback/StatusBadge",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-statusbadge--default.png"
+    },
+    {
+      "id": "feedback-statuspill--default",
+      "title": "Feedback/StatusPill",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-statuspill--default.png"
+    },
+    {
+      "id": "feedback-stepindicator--default",
+      "title": "Feedback/StepIndicator",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-stepindicator--default.png"
+    },
+    {
+      "id": "feedback-successstate--default",
+      "title": "Feedback/SuccessState",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-successstate--default.png"
+    },
+    {
+      "id": "feedback-toast--default",
+      "title": "Feedback/Toast",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/feedback-toast--default.png"
+    },
+    {
+      "id": "forms-autocomplete--default",
+      "title": "Forms/Autocomplete",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-autocomplete--default.png"
+    },
+    {
+      "id": "forms-checkbox--default",
+      "title": "Forms/Checkbox",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-checkbox--default.png"
+    },
+    {
+      "id": "forms-combobox--default",
+      "title": "Forms/Combobox",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-combobox--default.png"
+    },
+    {
+      "id": "forms-couponinput--default",
+      "title": "Forms/CouponInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-couponinput--default.png"
+    },
+    {
+      "id": "forms-datepicker--default",
+      "title": "Forms/DatePicker",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-datepicker--default.png"
+    },
+    {
+      "id": "forms-giftcardinput--default",
+      "title": "Forms/GiftCardInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-giftcardinput--default.png"
+    },
+    {
+      "id": "forms-input--default",
+      "title": "Forms/Input",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-input--default.png"
+    },
+    {
+      "id": "forms-multiselect--default",
+      "title": "Forms/MultiSelect",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-multiselect--default.png"
+    },
+    {
+      "id": "forms-numberinput--default",
+      "title": "Forms/NumberInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-numberinput--default.png"
+    },
+    {
+      "id": "forms-otpinput--default",
+      "title": "Forms/OTPInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-otpinput--default.png"
+    },
+    {
+      "id": "forms-passwordinput--default",
+      "title": "Forms/PasswordInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-passwordinput--default.png"
+    },
+    {
+      "id": "forms-promocodeinput--default",
+      "title": "Forms/PromoCodeInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-promocodeinput--default.png"
+    },
+    {
+      "id": "forms-quantitystepper--default",
+      "title": "Forms/QuantityStepper",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-quantitystepper--default.png"
+    },
+    {
+      "id": "forms-radio--default",
+      "title": "Forms/Radio",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-radio--default.png"
+    },
+    {
+      "id": "forms-searchinput--default",
+      "title": "Forms/SearchInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-searchinput--default.png"
+    },
+    {
+      "id": "forms-select--default",
+      "title": "Forms/Select",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-select--default.png"
+    },
+    {
+      "id": "forms-slider--default",
+      "title": "Forms/Slider",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-slider--default.png"
+    },
+    {
+      "id": "forms-switch--default",
+      "title": "Forms/Switch",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-switch--default.png"
+    },
+    {
+      "id": "forms-textarea--default",
+      "title": "Forms/Textarea",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-textarea--default.png"
+    },
+    {
+      "id": "forms-togglegroup--default",
+      "title": "Forms/ToggleGroup",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-togglegroup--default.png"
+    },
+    {
+      "id": "layouts-footerlayout--default",
+      "title": "Layouts/FooterLayout",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/layouts-footerlayout--default.png"
+    },
+    {
+      "id": "layouts-pageshell--default",
+      "title": "Layouts/PageShell",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/layouts-pageshell--default.png"
+    },
+    {
+      "id": "layouts-responsiveslot--default",
+      "title": "Layouts/ResponsiveSlot",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/layouts-responsiveslot--default.png"
+    },
+    {
+      "id": "layouts-sidebarlayout--default",
+      "title": "Layouts/SidebarLayout",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/layouts-sidebarlayout--default.png"
+    },
+    {
+      "id": "navigation-breadcrumb--default",
+      "title": "Navigation/Breadcrumb",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/navigation-breadcrumb--default.png"
+    },
+    {
+      "id": "navigation-commandpalette--default",
+      "title": "Navigation/CommandPalette",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/navigation-commandpalette--default.png"
+    },
+    {
+      "id": "navigation-desktopnavbar--default",
+      "title": "Navigation/DesktopNavbar",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/navigation-desktopnavbar--default.png"
+    },
+    {
+      "id": "navigation-megamenu--default",
+      "title": "Navigation/MegaMenu",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/navigation-megamenu--default.png"
+    },
+    {
+      "id": "navigation-mobilenavbar--default",
+      "title": "Navigation/MobileNavbar",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/navigation-mobilenavbar--default.png"
+    },
+    {
+      "id": "navigation-pagination--default",
+      "title": "Navigation/Pagination",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/navigation-pagination--default.png"
+    },
+    {
+      "id": "navigation-searchoverlay--default",
+      "title": "Navigation/SearchOverlay",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/navigation-searchoverlay--default.png"
+    },
+    {
+      "id": "navigation-tabs--default",
+      "title": "Navigation/Tabs",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/navigation-tabs--default.png"
+    },
+    {
+      "id": "overlays-bottomsheet--default",
+      "title": "Overlays/BottomSheet",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/overlays-bottomsheet--default.png"
+    },
+    {
+      "id": "overlays-confirmdialog--default",
+      "title": "Overlays/ConfirmDialog",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/overlays-confirmdialog--default.png"
+    },
+    {
+      "id": "overlays-dialog--default",
+      "title": "Overlays/Dialog",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/overlays-dialog--default.png"
+    },
+    {
+      "id": "overlays-drawer--default",
+      "title": "Overlays/Drawer",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/overlays-drawer--default.png"
+    },
+    {
+      "id": "overlays-modal--default",
+      "title": "Overlays/Modal",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/overlays-modal--default.png"
+    },
+    {
+      "id": "overlays-popover--default",
+      "title": "Overlays/Popover",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/overlays-popover--default.png"
+    },
+    {
+      "id": "overlays-tooltip--default",
+      "title": "Overlays/Tooltip",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/overlays-tooltip--default.png"
+    },
+    {
+      "id": "primitives-avatar--initials",
+      "title": "Primitives/Avatar",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-avatar--initials.png"
+    },
+    {
+      "id": "primitives-badge--default",
+      "title": "Primitives/Badge",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-badge--default.png"
+    },
+    {
+      "id": "primitives-button--primary",
+      "title": "Primitives/Button",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-button--primary.png"
+    },
+    {
+      "id": "primitives-chip--default",
+      "title": "Primitives/Chip",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-chip--default.png"
+    },
+    {
+      "id": "primitives-container--default",
+      "title": "Primitives/Container",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-container--default.png"
+    },
+    {
+      "id": "primitives-divider--horizontal",
+      "title": "Primitives/Divider",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-divider--horizontal.png"
+    },
+    {
+      "id": "primitives-grid--three",
+      "title": "Primitives/Grid",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-grid--three.png"
+    },
+    {
+      "id": "primitives-heading--default",
+      "title": "Primitives/Heading",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-heading--default.png"
+    },
+    {
+      "id": "primitives-iconbutton--default",
+      "title": "Primitives/IconButton",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-iconbutton--default.png"
+    },
+    {
+      "id": "primitives-link--default",
+      "title": "Primitives/Link",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-link--default.png"
+    },
+    {
+      "id": "primitives-logo--lockup",
+      "title": "Primitives/Logo",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-logo--lockup.png"
+    },
+    {
+      "id": "primitives-section--default",
+      "title": "Primitives/Section",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-section--default.png"
+    },
+    {
+      "id": "primitives-skeleton--default",
+      "title": "Primitives/Skeleton",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-skeleton--default.png"
+    },
+    {
+      "id": "primitives-spinner--default",
+      "title": "Primitives/Spinner",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-spinner--default.png"
+    },
+    {
+      "id": "primitives-stack--column",
+      "title": "Primitives/Stack",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-stack--column.png"
+    },
+    {
+      "id": "primitives-text--default",
+      "title": "Primitives/Text",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/primitives-text--default.png"
+    },
+    {
+      "id": "forms-checkbox--disabled",
+      "title": "Forms/Checkbox",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-checkbox--disabled.png"
+    },
+    {
+      "id": "forms-checkbox--invalid",
+      "title": "Forms/Checkbox",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-checkbox--invalid.png"
+    },
+    {
+      "id": "forms-combobox--invalid",
+      "title": "Forms/Combobox",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-combobox--invalid.png"
+    },
+    {
+      "id": "forms-combobox--loading",
+      "title": "Forms/Combobox",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-combobox--loading.png"
+    },
+    {
+      "id": "forms-couponinput--invalid",
+      "title": "Forms/CouponInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-couponinput--invalid.png"
+    },
+    {
+      "id": "forms-couponinput--loading",
+      "title": "Forms/CouponInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-couponinput--loading.png"
+    },
+    {
+      "id": "forms-datepicker--disabled",
+      "title": "Forms/DatePicker",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-datepicker--disabled.png"
+    },
+    {
+      "id": "forms-datepicker--invalid",
+      "title": "Forms/DatePicker",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-datepicker--invalid.png"
+    },
+    {
+      "id": "forms-giftcardinput--invalid",
+      "title": "Forms/GiftCardInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-giftcardinput--invalid.png"
+    },
+    {
+      "id": "forms-input--disabled",
+      "title": "Forms/Input",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-input--disabled.png"
+    },
+    {
+      "id": "forms-input--invalid",
+      "title": "Forms/Input",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-input--invalid.png"
+    },
+    {
+      "id": "forms-input--loading",
+      "title": "Forms/Input",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-input--loading.png"
+    },
+    {
+      "id": "forms-multiselect--disabled",
+      "title": "Forms/MultiSelect",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-multiselect--disabled.png"
+    },
+    {
+      "id": "forms-multiselect--invalid",
+      "title": "Forms/MultiSelect",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-multiselect--invalid.png"
+    },
+    {
+      "id": "forms-numberinput--disabled",
+      "title": "Forms/NumberInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-numberinput--disabled.png"
+    },
+    {
+      "id": "forms-numberinput--invalid",
+      "title": "Forms/NumberInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-numberinput--invalid.png"
+    },
+    {
+      "id": "forms-otpinput--invalid",
+      "title": "Forms/OTPInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-otpinput--invalid.png"
+    },
+    {
+      "id": "forms-passwordinput--disabled",
+      "title": "Forms/PasswordInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-passwordinput--disabled.png"
+    },
+    {
+      "id": "forms-passwordinput--invalid",
+      "title": "Forms/PasswordInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-passwordinput--invalid.png"
+    },
+    {
+      "id": "forms-quantitystepper--disabled",
+      "title": "Forms/QuantityStepper",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-quantitystepper--disabled.png"
+    },
+    {
+      "id": "forms-quantitystepper--invalid",
+      "title": "Forms/QuantityStepper",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-quantitystepper--invalid.png"
+    },
+    {
+      "id": "forms-radio--disabled",
+      "title": "Forms/Radio",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-radio--disabled.png"
+    },
+    {
+      "id": "forms-radio--invalid",
+      "title": "Forms/Radio",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-radio--invalid.png"
+    },
+    {
+      "id": "forms-searchinput--invalid",
+      "title": "Forms/SearchInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-searchinput--invalid.png"
+    },
+    {
+      "id": "forms-searchinput--loading",
+      "title": "Forms/SearchInput",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-searchinput--loading.png"
+    },
+    {
+      "id": "forms-select--disabled",
+      "title": "Forms/Select",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-select--disabled.png"
+    },
+    {
+      "id": "forms-select--invalid",
+      "title": "Forms/Select",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-select--invalid.png"
+    },
+    {
+      "id": "forms-slider--disabled",
+      "title": "Forms/Slider",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-slider--disabled.png"
+    },
+    {
+      "id": "forms-slider--invalid",
+      "title": "Forms/Slider",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-slider--invalid.png"
+    },
+    {
+      "id": "forms-switch--disabled",
+      "title": "Forms/Switch",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-switch--disabled.png"
+    },
+    {
+      "id": "forms-switch--invalid",
+      "title": "Forms/Switch",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-switch--invalid.png"
+    },
+    {
+      "id": "forms-textarea--disabled",
+      "title": "Forms/Textarea",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-textarea--disabled.png"
+    },
+    {
+      "id": "forms-textarea--invalid",
+      "title": "Forms/Textarea",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-textarea--invalid.png"
+    },
+    {
+      "id": "forms-togglegroup--disabled",
+      "title": "Forms/ToggleGroup",
+      "viewport": "390",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/390/forms-togglegroup--disabled.png"
+    },
+    {
+      "id": "commerce-addtobagbutton--default",
+      "title": "Commerce/AddToBagButton",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-addtobagbutton--default.png"
+    },
+    {
+      "id": "commerce-colorswatch--default",
+      "title": "Commerce/ColorSwatch",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-colorswatch--default.png"
+    },
+    {
+      "id": "commerce-comparebutton--default",
+      "title": "Commerce/CompareButton",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-comparebutton--default.png"
+    },
+    {
+      "id": "commerce-deliverybadge--default",
+      "title": "Commerce/DeliveryBadge",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-deliverybadge--default.png"
+    },
+    {
+      "id": "commerce-productbadge--default",
+      "title": "Commerce/ProductBadge",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-productbadge--default.png"
+    },
+    {
+      "id": "commerce-productcard--default",
+      "title": "Commerce/ProductCard",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-productcard--default.png"
+    },
+    {
+      "id": "commerce-productcarousel--default",
+      "title": "Commerce/ProductCarousel",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-productcarousel--default.png"
+    },
+    {
+      "id": "commerce-productgallery--default",
+      "title": "Commerce/ProductGallery",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-productgallery--default.png"
+    },
+    {
+      "id": "commerce-productimage--default",
+      "title": "Commerce/ProductImage",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-productimage--default.png"
+    },
+    {
+      "id": "commerce-productprice--default",
+      "title": "Commerce/ProductPrice",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-productprice--default.png"
+    },
+    {
+      "id": "commerce-producttitle--default",
+      "title": "Commerce/ProductTitle",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-producttitle--default.png"
+    },
+    {
+      "id": "commerce-rating--default",
+      "title": "Commerce/Rating",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-rating--default.png"
+    },
+    {
+      "id": "commerce-recentlyviewedstrip--default",
+      "title": "Commerce/RecentlyViewedStrip",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-recentlyviewedstrip--default.png"
+    },
+    {
+      "id": "commerce-relatedproductsstrip--default",
+      "title": "Commerce/RelatedProductsStrip",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-relatedproductsstrip--default.png"
+    },
+    {
+      "id": "commerce-returnbadge--default",
+      "title": "Commerce/ReturnBadge",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-returnbadge--default.png"
+    },
+    {
+      "id": "commerce-reviewsummary--default",
+      "title": "Commerce/ReviewSummary",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-reviewsummary--default.png"
+    },
+    {
+      "id": "commerce-sizeselector--default",
+      "title": "Commerce/SizeSelector",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-sizeselector--default.png"
+    },
+    {
+      "id": "commerce-stockindicator--default",
+      "title": "Commerce/StockIndicator",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-stockindicator--default.png"
+    },
+    {
+      "id": "commerce-variantselector--default",
+      "title": "Commerce/VariantSelector",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-variantselector--default.png"
+    },
+    {
+      "id": "commerce-wishlistbutton--default",
+      "title": "Commerce/WishlistButton",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/commerce-wishlistbutton--default.png"
+    },
+    {
+      "id": "editorial-brandgateway--default",
+      "title": "Editorial/BrandGateway",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-brandgateway--default.png"
+    },
+    {
+      "id": "editorial-campaignblock--default",
+      "title": "Editorial/CampaignBlock",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-campaignblock--default.png"
+    },
+    {
+      "id": "editorial-ctasection--default",
+      "title": "Editorial/CTASection",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-ctasection--default.png"
+    },
+    {
+      "id": "editorial-editorialcard--default",
+      "title": "Editorial/EditorialCard",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-editorialcard--default.png"
+    },
+    {
+      "id": "editorial-hero--default",
+      "title": "Editorial/Hero",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-hero--default.png"
+    },
+    {
+      "id": "editorial-imagenarrative--default",
+      "title": "Editorial/ImageNarrative",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-imagenarrative--default.png"
+    },
+    {
+      "id": "editorial-mediablock--default",
+      "title": "Editorial/MediaBlock",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-mediablock--default.png"
+    },
+    {
+      "id": "editorial-quoteblock--default",
+      "title": "Editorial/QuoteBlock",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-quoteblock--default.png"
+    },
+    {
+      "id": "editorial-splitfeature--default",
+      "title": "Editorial/SplitFeature",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/editorial-splitfeature--default.png"
+    },
+    {
+      "id": "feedback-alert--default",
+      "title": "Feedback/Alert",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-alert--default.png"
+    },
+    {
+      "id": "feedback-banner--default",
+      "title": "Feedback/Banner",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-banner--default.png"
+    },
+    {
+      "id": "feedback-circularprogress--default",
+      "title": "Feedback/CircularProgress",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-circularprogress--default.png"
+    },
+    {
+      "id": "feedback-emptystate--default",
+      "title": "Feedback/EmptyState",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-emptystate--default.png"
+    },
+    {
+      "id": "feedback-errorstate--default",
+      "title": "Feedback/ErrorState",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-errorstate--default.png"
+    },
+    {
+      "id": "feedback-inlinealert--default",
+      "title": "Feedback/InlineAlert",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-inlinealert--default.png"
+    },
+    {
+      "id": "feedback-loadingstate--default",
+      "title": "Feedback/LoadingState",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-loadingstate--default.png"
+    },
+    {
+      "id": "feedback-progressbar--default",
+      "title": "Feedback/ProgressBar",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-progressbar--default.png"
+    },
+    {
+      "id": "feedback-statusbadge--default",
+      "title": "Feedback/StatusBadge",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-statusbadge--default.png"
+    },
+    {
+      "id": "feedback-statuspill--default",
+      "title": "Feedback/StatusPill",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-statuspill--default.png"
+    },
+    {
+      "id": "feedback-stepindicator--default",
+      "title": "Feedback/StepIndicator",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-stepindicator--default.png"
+    },
+    {
+      "id": "feedback-successstate--default",
+      "title": "Feedback/SuccessState",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-successstate--default.png"
+    },
+    {
+      "id": "feedback-toast--default",
+      "title": "Feedback/Toast",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/feedback-toast--default.png"
+    },
+    {
+      "id": "forms-autocomplete--default",
+      "title": "Forms/Autocomplete",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-autocomplete--default.png"
+    },
+    {
+      "id": "forms-checkbox--default",
+      "title": "Forms/Checkbox",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-checkbox--default.png"
+    },
+    {
+      "id": "forms-combobox--default",
+      "title": "Forms/Combobox",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-combobox--default.png"
+    },
+    {
+      "id": "forms-couponinput--default",
+      "title": "Forms/CouponInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-couponinput--default.png"
+    },
+    {
+      "id": "forms-datepicker--default",
+      "title": "Forms/DatePicker",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-datepicker--default.png"
+    },
+    {
+      "id": "forms-giftcardinput--default",
+      "title": "Forms/GiftCardInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-giftcardinput--default.png"
+    },
+    {
+      "id": "forms-input--default",
+      "title": "Forms/Input",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-input--default.png"
+    },
+    {
+      "id": "forms-multiselect--default",
+      "title": "Forms/MultiSelect",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-multiselect--default.png"
+    },
+    {
+      "id": "forms-numberinput--default",
+      "title": "Forms/NumberInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-numberinput--default.png"
+    },
+    {
+      "id": "forms-otpinput--default",
+      "title": "Forms/OTPInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-otpinput--default.png"
+    },
+    {
+      "id": "forms-passwordinput--default",
+      "title": "Forms/PasswordInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-passwordinput--default.png"
+    },
+    {
+      "id": "forms-promocodeinput--default",
+      "title": "Forms/PromoCodeInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-promocodeinput--default.png"
+    },
+    {
+      "id": "forms-quantitystepper--default",
+      "title": "Forms/QuantityStepper",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-quantitystepper--default.png"
+    },
+    {
+      "id": "forms-radio--default",
+      "title": "Forms/Radio",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-radio--default.png"
+    },
+    {
+      "id": "forms-searchinput--default",
+      "title": "Forms/SearchInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-searchinput--default.png"
+    },
+    {
+      "id": "forms-select--default",
+      "title": "Forms/Select",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-select--default.png"
+    },
+    {
+      "id": "forms-slider--default",
+      "title": "Forms/Slider",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-slider--default.png"
+    },
+    {
+      "id": "forms-switch--default",
+      "title": "Forms/Switch",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-switch--default.png"
+    },
+    {
+      "id": "forms-textarea--default",
+      "title": "Forms/Textarea",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-textarea--default.png"
+    },
+    {
+      "id": "forms-togglegroup--default",
+      "title": "Forms/ToggleGroup",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-togglegroup--default.png"
+    },
+    {
+      "id": "layouts-footerlayout--default",
+      "title": "Layouts/FooterLayout",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/layouts-footerlayout--default.png"
+    },
+    {
+      "id": "layouts-pageshell--default",
+      "title": "Layouts/PageShell",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/layouts-pageshell--default.png"
+    },
+    {
+      "id": "layouts-responsiveslot--default",
+      "title": "Layouts/ResponsiveSlot",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/layouts-responsiveslot--default.png"
+    },
+    {
+      "id": "layouts-sidebarlayout--default",
+      "title": "Layouts/SidebarLayout",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/layouts-sidebarlayout--default.png"
+    },
+    {
+      "id": "navigation-breadcrumb--default",
+      "title": "Navigation/Breadcrumb",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/navigation-breadcrumb--default.png"
+    },
+    {
+      "id": "navigation-commandpalette--default",
+      "title": "Navigation/CommandPalette",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/navigation-commandpalette--default.png"
+    },
+    {
+      "id": "navigation-desktopnavbar--default",
+      "title": "Navigation/DesktopNavbar",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/navigation-desktopnavbar--default.png"
+    },
+    {
+      "id": "navigation-megamenu--default",
+      "title": "Navigation/MegaMenu",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/navigation-megamenu--default.png"
+    },
+    {
+      "id": "navigation-mobilenavbar--default",
+      "title": "Navigation/MobileNavbar",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/navigation-mobilenavbar--default.png"
+    },
+    {
+      "id": "navigation-pagination--default",
+      "title": "Navigation/Pagination",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/navigation-pagination--default.png"
+    },
+    {
+      "id": "navigation-searchoverlay--default",
+      "title": "Navigation/SearchOverlay",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/navigation-searchoverlay--default.png"
+    },
+    {
+      "id": "navigation-tabs--default",
+      "title": "Navigation/Tabs",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/navigation-tabs--default.png"
+    },
+    {
+      "id": "overlays-bottomsheet--default",
+      "title": "Overlays/BottomSheet",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/overlays-bottomsheet--default.png"
+    },
+    {
+      "id": "overlays-confirmdialog--default",
+      "title": "Overlays/ConfirmDialog",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/overlays-confirmdialog--default.png"
+    },
+    {
+      "id": "overlays-dialog--default",
+      "title": "Overlays/Dialog",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/overlays-dialog--default.png"
+    },
+    {
+      "id": "overlays-drawer--default",
+      "title": "Overlays/Drawer",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/overlays-drawer--default.png"
+    },
+    {
+      "id": "overlays-modal--default",
+      "title": "Overlays/Modal",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/overlays-modal--default.png"
+    },
+    {
+      "id": "overlays-popover--default",
+      "title": "Overlays/Popover",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/overlays-popover--default.png"
+    },
+    {
+      "id": "overlays-tooltip--default",
+      "title": "Overlays/Tooltip",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/overlays-tooltip--default.png"
+    },
+    {
+      "id": "primitives-avatar--initials",
+      "title": "Primitives/Avatar",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-avatar--initials.png"
+    },
+    {
+      "id": "primitives-badge--default",
+      "title": "Primitives/Badge",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-badge--default.png"
+    },
+    {
+      "id": "primitives-button--primary",
+      "title": "Primitives/Button",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-button--primary.png"
+    },
+    {
+      "id": "primitives-chip--default",
+      "title": "Primitives/Chip",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-chip--default.png"
+    },
+    {
+      "id": "primitives-container--default",
+      "title": "Primitives/Container",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-container--default.png"
+    },
+    {
+      "id": "primitives-divider--horizontal",
+      "title": "Primitives/Divider",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-divider--horizontal.png"
+    },
+    {
+      "id": "primitives-grid--three",
+      "title": "Primitives/Grid",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-grid--three.png"
+    },
+    {
+      "id": "primitives-heading--default",
+      "title": "Primitives/Heading",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-heading--default.png"
+    },
+    {
+      "id": "primitives-iconbutton--default",
+      "title": "Primitives/IconButton",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-iconbutton--default.png"
+    },
+    {
+      "id": "primitives-link--default",
+      "title": "Primitives/Link",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-link--default.png"
+    },
+    {
+      "id": "primitives-logo--lockup",
+      "title": "Primitives/Logo",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-logo--lockup.png"
+    },
+    {
+      "id": "primitives-section--default",
+      "title": "Primitives/Section",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-section--default.png"
+    },
+    {
+      "id": "primitives-skeleton--default",
+      "title": "Primitives/Skeleton",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-skeleton--default.png"
+    },
+    {
+      "id": "primitives-spinner--default",
+      "title": "Primitives/Spinner",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-spinner--default.png"
+    },
+    {
+      "id": "primitives-stack--column",
+      "title": "Primitives/Stack",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-stack--column.png"
+    },
+    {
+      "id": "primitives-text--default",
+      "title": "Primitives/Text",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/primitives-text--default.png"
+    },
+    {
+      "id": "forms-checkbox--disabled",
+      "title": "Forms/Checkbox",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-checkbox--disabled.png"
+    },
+    {
+      "id": "forms-checkbox--invalid",
+      "title": "Forms/Checkbox",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-checkbox--invalid.png"
+    },
+    {
+      "id": "forms-combobox--invalid",
+      "title": "Forms/Combobox",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-combobox--invalid.png"
+    },
+    {
+      "id": "forms-combobox--loading",
+      "title": "Forms/Combobox",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-combobox--loading.png"
+    },
+    {
+      "id": "forms-couponinput--invalid",
+      "title": "Forms/CouponInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-couponinput--invalid.png"
+    },
+    {
+      "id": "forms-couponinput--loading",
+      "title": "Forms/CouponInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-couponinput--loading.png"
+    },
+    {
+      "id": "forms-datepicker--disabled",
+      "title": "Forms/DatePicker",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-datepicker--disabled.png"
+    },
+    {
+      "id": "forms-datepicker--invalid",
+      "title": "Forms/DatePicker",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-datepicker--invalid.png"
+    },
+    {
+      "id": "forms-giftcardinput--invalid",
+      "title": "Forms/GiftCardInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-giftcardinput--invalid.png"
+    },
+    {
+      "id": "forms-input--disabled",
+      "title": "Forms/Input",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-input--disabled.png"
+    },
+    {
+      "id": "forms-input--invalid",
+      "title": "Forms/Input",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-input--invalid.png"
+    },
+    {
+      "id": "forms-input--loading",
+      "title": "Forms/Input",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-input--loading.png"
+    },
+    {
+      "id": "forms-multiselect--disabled",
+      "title": "Forms/MultiSelect",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-multiselect--disabled.png"
+    },
+    {
+      "id": "forms-multiselect--invalid",
+      "title": "Forms/MultiSelect",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-multiselect--invalid.png"
+    },
+    {
+      "id": "forms-numberinput--disabled",
+      "title": "Forms/NumberInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-numberinput--disabled.png"
+    },
+    {
+      "id": "forms-numberinput--invalid",
+      "title": "Forms/NumberInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-numberinput--invalid.png"
+    },
+    {
+      "id": "forms-otpinput--invalid",
+      "title": "Forms/OTPInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-otpinput--invalid.png"
+    },
+    {
+      "id": "forms-passwordinput--disabled",
+      "title": "Forms/PasswordInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-passwordinput--disabled.png"
+    },
+    {
+      "id": "forms-passwordinput--invalid",
+      "title": "Forms/PasswordInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-passwordinput--invalid.png"
+    },
+    {
+      "id": "forms-quantitystepper--disabled",
+      "title": "Forms/QuantityStepper",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-quantitystepper--disabled.png"
+    },
+    {
+      "id": "forms-quantitystepper--invalid",
+      "title": "Forms/QuantityStepper",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-quantitystepper--invalid.png"
+    },
+    {
+      "id": "forms-radio--disabled",
+      "title": "Forms/Radio",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-radio--disabled.png"
+    },
+    {
+      "id": "forms-radio--invalid",
+      "title": "Forms/Radio",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-radio--invalid.png"
+    },
+    {
+      "id": "forms-searchinput--invalid",
+      "title": "Forms/SearchInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-searchinput--invalid.png"
+    },
+    {
+      "id": "forms-searchinput--loading",
+      "title": "Forms/SearchInput",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-searchinput--loading.png"
+    },
+    {
+      "id": "forms-select--disabled",
+      "title": "Forms/Select",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-select--disabled.png"
+    },
+    {
+      "id": "forms-select--invalid",
+      "title": "Forms/Select",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-select--invalid.png"
+    },
+    {
+      "id": "forms-slider--disabled",
+      "title": "Forms/Slider",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-slider--disabled.png"
+    },
+    {
+      "id": "forms-slider--invalid",
+      "title": "Forms/Slider",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-slider--invalid.png"
+    },
+    {
+      "id": "forms-switch--disabled",
+      "title": "Forms/Switch",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-switch--disabled.png"
+    },
+    {
+      "id": "forms-switch--invalid",
+      "title": "Forms/Switch",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-switch--invalid.png"
+    },
+    {
+      "id": "forms-textarea--disabled",
+      "title": "Forms/Textarea",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-textarea--disabled.png"
+    },
+    {
+      "id": "forms-textarea--invalid",
+      "title": "Forms/Textarea",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-textarea--invalid.png"
+    },
+    {
+      "id": "forms-togglegroup--disabled",
+      "title": "Forms/ToggleGroup",
+      "viewport": "1280",
+      "path": "docs/qa/sprint-2.2.5/visual-baselines/1280/forms-togglegroup--disabled.png"
+    }
+  ]
+}
