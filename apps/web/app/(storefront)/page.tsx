@@ -206,10 +206,10 @@ export default function StorefrontHomepage() {
         <section className={styles.trustStrip} aria-label="Porsion Studio trust and service highlights">
           <div className={styles.sectionInner}>
             <div className={styles.trustBar}>
-              <div><span>Nationwide delivery</span><strong>ঢাকায় ১–২ দিন</strong></div>
-              <div><span>Easy exchanges</span><strong>সহজ ৩-দিনের নীতি</strong></div>
-              <div><span>Secure payment</span><strong><span className={styles.payments}><span>COD</span><span>কার্ড</span><span>ওয়ালেট</span></span></strong></div>
-              <div><span>Need help?</span><strong>হোয়াটসঅ্যাপ সাপোর্ট সবসময় উপলব্ধ</strong></div>
+              <div><span>Nationwide delivery</span><strong>Dhaka in 1–2 days</strong></div>
+              <div><span>Easy exchanges</span><strong>Simple 3-day policy</strong></div>
+              <div><span>Secure payment</span><strong><span className={styles.payments}><span>COD</span><span>Cards</span><span>Wallets</span></span></strong></div>
+              <div><span>Need help?</span><strong>WhatsApp support always on</strong></div>
             </div>
           </div>
         </section>
