@@ -1,165 +1,109 @@
-import type { Metadata } from "next";
-import {
-  BrandGateway,
-  CampaignBlock,
-  Container,
-  CTASection,
-  EditorialCard,
-  FooterLayout,
-  Grid,
-  Heading,
-  Hero,
-  ImageNarrative,
-  Link,
-  Logo,
-  ProductCard,
-  QuoteBlock,
-  Section,
-  SplitFeature,
-  Text
-} from "@porsion/ui";
-import type { BrandGatewayItem, EditorialMedia, FooterLayoutColumn, ProductCardProduct } from "@porsion/ui";
+﻿import type { Metadata } from "next";
+import Image from "next/image";
+import NextLink from "next/link";
+import { ArrowRight, CreditCard, MessageCircle, RotateCcw, Truck } from "lucide-react";
 import { SiteShell } from "@/components/layout/site-shell";
+import { ProductCardWithSave } from "@/components/storefront/product-card-with-save";
+import { brandMarkImage, storefrontFeaturedProducts } from "@/lib/storefront/catalog";
+import { storefrontFooter } from "@/lib/storefront/page";
+import styles from "./page.module.css";
 
-const campaignImage = "/brand-assets/porsion-studio-old-money-polo-campaign.png";
-const logoMark = "/brand-assets/porsion-studio-logo-mark.jpg";
+const referenceAssets = {
+  hero: "/campaigns/house-reference/house-hero.jpg",
+  faris: "/campaigns/faris-hero-v1.jpg",
+  laaj: "/campaigns/laaj-hero-v1.jpg",
+  campaign: "/campaigns/house-reference/old-money-campaign.png",
+  products: [
+    "/campaigns/house-reference/faris-polo.jpg",
+    "/campaigns/house-reference/faris-trouser.jpg",
+    "/campaigns/house-reference/laaj-blouse.jpg",
+    "/campaigns/house-reference/laaj-dress.jpg"
+  ],
+  journal: [
+    "/campaigns/house-reference/journal-craft.jpg",
+    "/campaigns/house-reference/journal-fabric.jpg"
+  ]
+} as const;
 
-const campaignMedia = {
-  kind: "image",
-  src: campaignImage,
-  alt: "Porsion Studio Old Money polo collection with folded black polo and tailored trousers.",
-  width: 960,
-  height: 400,
-  sizes: "100vw"
-} satisfies EditorialMedia;
+const featuredProducts = storefrontFeaturedProducts.slice(0, 4).map((product, index) => ({
+  ...product,
+  image: {
+    ...product.image,
+    src: referenceAssets.products[index] ?? product.image.src,
+    width: 768,
+    height: 1024,
+    sizes: "(min-width: 1024px) 25vw, 50vw"
+  }
+}));
 
-const logoMedia = {
-  kind: "image",
-  src: logoMark,
-  alt: "Porsion Studio gold unicorn mark on a black field.",
-  width: 200,
-  height: 200,
-  sizes: "(min-width: 768px) 50vw, 100vw"
-} satisfies EditorialMedia;
-
-const ctaPrimary = "inline-flex min-h-11 items-center justify-center rounded-[var(--radius-sm)] border border-[var(--color-accent)] bg-[var(--color-accent)] px-5 text-sm font-medium uppercase tracking-[0.14em] !text-[var(--color-on-accent)] transition hover:brightness-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-accent)]";
-const ctaSecondary = "inline-flex min-h-11 items-center justify-center rounded-[var(--radius-sm)] border border-[var(--color-border)] bg-transparent px-5 text-sm font-medium uppercase tracking-[0.14em] text-[var(--color-text)] transition hover:bg-[var(--color-hover-surface)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-accent)]";
-
-const brandGatewayItems = [
+const brandGateways = [
   {
-    id: "faris",
-    name: "Faris",
+    brand: "FARIS",
+    audience: "Menswear",
     href: "/faris",
-    eyebrow: "Menswear",
-    description: "Timeless quiet luxury menswear for modern confidence.",
-    media: campaignMedia,
-    actionLabel: "Enter Faris"
+    image: referenceAssets.faris,
+    alt: "FARIS menswear in a considered quiet luxury setting.",
+    description: "Timeless quiet luxury for men. Structured, precise, calm.",
+    action: "Explore FARIS",
+    imagePosition: "54% center"
   },
   {
-    id: "laaj",
-    name: "Laaj",
+    brand: "LAAJ",
+    audience: "Womenswear",
     href: "/laaj",
-    eyebrow: "Womenswear",
-    description: "Refined womenswear shaped around elegance, ease, and lasting poise.",
-    media: logoMedia,
-    actionLabel: "Enter Laaj"
+    image: referenceAssets.laaj,
+    alt: "LAAJ womenswear in a refined and softly composed setting.",
+    description: "Elegant, refined, modern womenswear. Soft strength, timeless value.",
+    action: "Explore LAAJ",
+    imagePosition: "58% center"
   }
-] satisfies BrandGatewayItem[];
+] as const;
 
-const featuredProducts = [
+const journalStories = [
   {
-    id: "faris-old-money-polo",
-    href: "/faris",
-    image: {
-      src: campaignImage,
-      alt: "Folded black Faris polo from the Old Money collection.",
-      width: 960,
-      height: 400,
-      sizes: "(min-width: 1024px) 33vw, 90vw"
-    },
-    title: "Old Money Polo",
-    subtitle: "Soft structure with a quiet finish.",
-    brand: "Faris",
-    price: "Launch edit",
-    badges: ["New"],
-    status: "Menswear"
+    href: "/journal/faris-wardrobe",
+    image: referenceAssets.journal[0],
+    alt: "A tailor shaping a FARIS garment by hand.",
+    category: "Craft",
+    title: "The patience behind every piece.",
+    summary: "Why proportion, fabric and a considered finish matter long after a season ends."
   },
   {
-    id: "faris-tailored-trouser",
-    href: "/faris",
-    image: {
-      src: campaignImage,
-      alt: "Tailored neutral trouser styled with the Porsion Studio polo campaign.",
-      width: 960,
-      height: 400,
-      sizes: "(min-width: 1024px) 33vw, 90vw"
-    },
-    title: "Tailored Trouser",
-    subtitle: "Clean proportions for everyday polish.",
-    brand: "Faris",
-    price: "Coming soon",
-    status: "Essential"
-  },
-  {
-    id: "laaj-refined-edit",
-    href: "/laaj",
-    image: {
-      src: logoMark,
-      alt: "Laaj by Porsion Studio refined womenswear identity mark.",
-      width: 200,
-      height: 200,
-      sizes: "(min-width: 1024px) 33vw, 90vw"
-    },
-    title: "The Refined Edit",
-    subtitle: "A calm first direction for modern womenswear.",
-    brand: "Laaj",
-    price: "Preview",
-    status: "Womenswear"
+    href: "/journal/laaj-proportion",
+    image: referenceAssets.journal[1],
+    alt: "Natural fabric arranged for a LAAJ collection study.",
+    category: "Materials",
+    title: "A study in fabric and movement.",
+    summary: "How quiet texture and graceful structure shape the LAAJ wardrobe."
   }
-] satisfies ProductCardProduct[];
+] as const;
 
-const footerColumns = [
+const servicePromises = [
   {
-    title: "The House",
-    links: [
-      { label: "The Collection", href: "/collection" },
-      { label: "The Journal", href: "/journal" },
-      { label: "The House", href: "/the-house" }
-    ]
+    icon: Truck,
+    title: "Nationwide delivery",
+    detail: "1-2 days in Dhaka, typically 2-3 days outside Dhaka.",
+    href: "/delivery"
   },
   {
-    title: "Brands",
-    links: [
-      { label: "Faris", href: "/faris" },
-      { label: "Laaj", href: "/laaj" }
-    ]
+    icon: RotateCcw,
+    title: "Easy exchanges",
+    detail: "Request an eligible return or exchange within 3 days.",
+    href: "/returns"
   },
   {
-    title: "Care",
-    links: [
-      { label: "Delivery", href: "/delivery" },
-      { label: "Returns", href: "/returns" },
-      { label: "Contact", href: "/contact" }
-    ]
+    icon: CreditCard,
+    title: "Secure payment",
+    detail: "COD or SSLCommerz wallet, card and bank channels.",
+    href: "/terms"
+  },
+  {
+    icon: MessageCircle,
+    title: "Personal guidance",
+    detail: "Size, delivery and order help through WhatsApp.",
+    href: "/contact"
   }
-] satisfies FooterLayoutColumn[];
-
-const homepageFooter = (
-  <FooterLayout
-    ariaLabel="Porsion Studio footer"
-    brand={<Logo href="/" label="Porsion Studio home" />}
-    utility="A quiet luxury fashion house from Bangladesh, built as a digital-first house of brands."
-    columns={footerColumns}
-    social={
-      <div className="flex flex-wrap gap-3">
-        <Link href="/journal" variant="subtle">Journal</Link>
-        <Link href="/contact" variant="subtle">Contact</Link>
-      </div>
-    }
-    legal="Porsion Studio. The House of Timeless Fashion."
-    className="pb-28 lg:pb-16"
-  />
-);
+] as const;
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://porsionstudio.com";
 
@@ -170,11 +114,12 @@ const homepageJsonLd = {
       "@type": "Organization",
       name: "Porsion Studio",
       url: siteUrl,
-      logo: `${siteUrl}${logoMark}`,
+      logo: siteUrl + brandMarkImage,
       slogan: "The House of Timeless Fashion",
+      description: "A Bangladesh-origin fashion house building FARIS menswear and LAAJ womenswear around timeless design, quality and quiet confidence.",
       brand: [
-        { "@type": "Brand", name: "Faris" },
-        { "@type": "Brand", name: "Laaj" }
+        { "@type": "Brand", name: "FARIS", description: "Modern menswear with quiet confidence." },
+        { "@type": "Brand", name: "LAAJ", description: "Refined womenswear with modest ease." }
       ]
     },
     {
@@ -184,7 +129,7 @@ const homepageJsonLd = {
       inLanguage: "en-BD",
       potentialAction: {
         "@type": "SearchAction",
-        target: `${siteUrl}/search?q={search_term_string}`,
+        target: siteUrl + "/search?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -192,162 +137,273 @@ const homepageJsonLd = {
 };
 
 export const metadata: Metadata = {
-  title: "Porsion Studio - The House of Timeless Fashion",
-  description: "Porsion Studio is a quiet luxury fashion house from Bangladesh, home to Faris menswear and Laaj womenswear.",
-  alternates: {
-    canonical: "/"
-  },
+  title: "Quiet Luxury Fashion House | FARIS and LAAJ",
+  description: "Discover Porsion Studio, the Bangladesh-origin fashion house behind FARIS menswear and LAAJ womenswear.",
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "Porsion Studio - The House of Timeless Fashion",
-    description: "A digital-first luxury fashion house for Faris menswear and Laaj womenswear.",
+    title: "Porsion Studio | FARIS and LAAJ",
+    description: "Timeless menswear and refined womenswear, shaped in Bangladesh.",
     images: [
       {
-        url: campaignImage,
-        width: 960,
-        height: 400,
-        alt: "Porsion Studio Old Money polo campaign"
+        url: referenceAssets.hero,
+        width: 1920,
+        height: 1152,
+        alt: "Porsion Studio quiet luxury fashion campaign"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Porsion Studio - The House of Timeless Fashion",
-    description: "Quiet luxury fashion from Bangladesh, beginning with Faris and Laaj.",
-    images: [campaignImage]
+    title: "Porsion Studio | FARIS and LAAJ",
+    description: "Timeless menswear and refined womenswear, shaped in Bangladesh.",
+    images: [referenceAssets.hero]
   }
 };
 
 export default function StorefrontHomepage() {
   return (
-    <SiteShell brandContext="house" footer={homepageFooter}>
+    <SiteShell brandContext="house" footer={storefrontFooter()} overlayHeader>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageJsonLd) }} />
 
-      <Hero
-        data-brand="campaign"
-        media={campaignMedia}
-        title="Porsion Studio"
-        eyebrow="The House of Timeless Fashion"
-        description="A quiet luxury fashion house from Bangladesh, built as a digital flagship for Faris menswear, Laaj womenswear, and future timeless collections."
-        actions={
-          <>
-            <Link href="/faris" className={ctaPrimary}>Shop Faris</Link>
-            <Link href="/laaj" className={ctaSecondary}>Discover Laaj</Link>
-          </>
-        }
-        height="screen"
-      />
-
-      <BrandGateway
-        title="Choose the right doorway."
-        eyebrow="Faris and Laaj"
-        description="Two clear paths inside one quiet house. Choose Faris for menswear or Laaj for womenswear."
-        items={brandGatewayItems}
-      />
-
-      <QuoteBlock
-        quote="Luxury should feel calm before it feels expensive."
-        cite="Porsion Studio"
-        eyebrow="House philosophy"
-      />
-
-      <CampaignBlock
-        data-brand="campaign"
-        className="bg-[var(--color-background)]"
-        media={campaignMedia}
-        mediaPosition="end"
-        eyebrow="Faris launch direction"
-        title="Old Money Polo Collection"
-        description="A clean first direction for men: refined polos, tailored essentials, and a calm wardrobe made for everyday confidence."
-        actions={<Link href="/faris" className={ctaPrimary}>Enter Faris</Link>}
-      />
-
-      <Section aria-labelledby="featured-edit-title">
-        <Container className="grid gap-8">
-          <div className="grid max-w-3xl gap-4">
-            <Text as="p" size="sm" tone="muted" className="uppercase tracking-[0.18em]">The first edit</Text>
-            <Heading id="featured-edit-title" size="lg">A first edit with a clear point of view.</Heading>
-            <Text tone="muted">
-              A restrained introduction to Faris, Laaj, and the timeless essentials that define the house.
-            </Text>
-          </div>
-          <Grid columns={3} gap="lg">
-            {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} variant="editorial" imageRatio="portrait" viewProductLabel={`View ${product.title}`} />
-            ))}
-          </Grid>
-        </Container>
-      </Section>
-
-      <SplitFeature
-        data-brand="faris"
-        className="bg-[var(--color-background)]"
-        media={campaignMedia}
-        mediaPosition="start"
-        eyebrow="Marketing-aware experience"
-        title="One house. Two distinct moods."
-        description="Faris carries structure and quiet confidence. Laaj carries elegance and ease. Both belong to the same house standard of proportion, material, and restraint."
-        features={[
-          "A direct menswear path for Faris.",
-          "A refined womenswear path for Laaj.",
-          "A simple route from first impression to collection."
-        ]}
-        actions={<Link href="/collection" className={ctaSecondary}>View the collection</Link>}
-      />
-
-      <ImageNarrative
-        media={campaignMedia}
-        eyebrow="Digital flagship"
-        title="Fast, editorial, and clear on mobile."
-        caption="Campaign imagery leads into Faris, Laaj, collection, journal, and care paths without visual noise."
-      >
-        The experience is intentionally simple: fewer distractions, stronger memory, and a calmer path into the house.
-      </ImageNarrative>
-
-      <Section aria-labelledby="journal-title" spacing="sm">
-        <Container className="grid gap-8">
-          <div className="flex flex-col justify-between gap-4 md:flex-row md:items-end">
-            <div className="grid max-w-2xl gap-3">
-              <Text as="p" size="sm" tone="muted" className="uppercase tracking-[0.18em]">Journal</Text>
-              <Heading id="journal-title" size="md">Editorial content without noise.</Heading>
+      <div className={styles.home}>
+        <section className={styles.hero} aria-labelledby="homepage-title">
+          <Image
+            src={referenceAssets.hero}
+            alt="Porsion Studio campaign introducing FARIS menswear and LAAJ womenswear."
+            fill
+            priority
+            sizes="100vw"
+            className={styles.heroImage}
+          />
+          <div className={styles.heroShade} aria-hidden="true" />
+          <div className={styles.heroContent}>
+            <p className={styles.eyebrow}>A quiet luxury house <span aria-hidden="true">&middot;</span> Dhaka</p>
+            <h1 id="homepage-title" className={styles.heroTitle}>Clothing that outlives the season.</h1>
+            <p className={styles.heroDescription}>Porsion Studio is the house of FARIS menswear and LAAJ womenswear: timeless pieces, honest fabrics and fit that respects the wearer.</p>
+            <div className={styles.heroActions}>
+              <NextLink href="/collection" className={styles.primaryAction}>
+                Explore the collection
+                <ArrowRight aria-hidden="true" size={16} />
+              </NextLink>
+              <NextLink href="#the-house" className={styles.heroTextAction}>Discover the house</NextLink>
             </div>
-            <Link href="/journal" variant="underline">Read the journal</Link>
           </div>
-          <Grid columns={2} gap="lg">
-            <EditorialCard
-              href="/journal/quiet-luxury"
-              media={campaignMedia}
-              eyebrow="House notes"
-              title="Why quiet luxury needs restraint."
-              excerpt="Design, fabric, fit, and proportion should do more work than logos."
-              meta="3 min read"
-              actionLabel="Read"
-            />
-            <EditorialCard
-              href="/journal/faris-laaj"
-              media={logoMedia}
-              eyebrow="Brand architecture"
-              title="Faris and Laaj inside one house."
-              excerpt="Separate customer moods, shared trust, and a single operating foundation."
-              meta="4 min read"
-              actionLabel="Read"
-            />
-          </Grid>
-        </Container>
-      </Section>
+        </section>
 
-      <CTASection
-        data-brand="campaign"
-        className="bg-[var(--color-background)]"
-        eyebrow="Start with the right brand"
-        title="Enter the house through Faris or Laaj."
-        description="Begin with the brand that fits the wardrobe you are building today."
-        actions={
-          <>
-            <Link href="/faris" className={ctaPrimary}>Faris</Link>
-            <Link href="/laaj" className={ctaSecondary}>Laaj</Link>
-          </>
-        }
-      />
+        <section id="the-house" className={styles.houseIntro} aria-labelledby="house-intro-title">
+          <div className={styles.sectionInner}>
+            <p className={styles.eyebrow}>The house</p>
+            <div className={styles.houseIntroGrid}>
+              <h2 id="house-intro-title" className={styles.displayTitle}>One house. Two labels. A single standard of craft.</h2>
+              <div className={styles.houseIntroCopy}>
+                <p>Porsion Studio was built in Dhaka on a simple belief: luxury should feel considered, not announced.</p>
+                <p>FARIS and LAAJ share one standard of material, proportion and lasting wear, while each keeps a distinct point of view.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.trustStrip} aria-label="Porsion Studio trust and service highlights">
+          <div className={styles.sectionInner}>
+            <div className={styles.trustBar}>
+              <div><span>দেশব্যাপী ডেলিভারি</span><strong>ঢাকায় ১–২ দিন</strong></div>
+              <div><span>সহজ বিনিময়</span><strong>সহজ ৩-দিনের নীতি</strong></div>
+              <div><span>নিরাপদ পেমেন্ট</span><strong><span className={styles.payments}><span>COD</span><span>কার্ড</span><span>ওয়ালেট</span></span></strong></div>
+              <div><span>সহায়তা?</span><strong>হোয়াটসঅ্যাপ সাপোর্ট সবসময় উপলব্ধ</strong></div>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.brandGateways} aria-labelledby="brand-gateways-title">
+          <h2 id="brand-gateways-title" className="sr-only">Explore FARIS and LAAJ</h2>
+          {brandGateways.map((gateway) => (
+            <NextLink key={gateway.brand} href={gateway.href} className={styles.brandGateway} aria-label={`${gateway.action}. ${gateway.description}`}>
+              <Image
+                src={gateway.image}
+                alt={gateway.alt}
+                fill
+                sizes="(min-width: 900px) 50vw, 100vw"
+                className={styles.gatewayImage}
+                style={{ objectPosition: gateway.imagePosition }}
+              />
+              <span className={styles.gatewayShade} aria-hidden="true" />
+              <span className={styles.gatewayContent}>
+                <span className={styles.gatewayAudience}>{gateway.audience}</span>
+                <span className={styles.gatewayTitle}>{gateway.brand}</span>
+                <span className={styles.gatewayDescription}>{gateway.description}</span>
+                <span className={styles.gatewayAction}>{gateway.action}<ArrowRight aria-hidden="true" size={16} /></span>
+              </span>
+            </NextLink>
+          ))}
+        </section>
+
+        <section className={styles.wardrobePreview} aria-labelledby="wardrobe-title">
+          <div className={styles.sectionInner}>
+            <div className={styles.sectionHeading}>
+              <div>
+                <p className={styles.eyebrow}>Shop</p>
+                <h2 id="wardrobe-title" className={styles.displayTitle}>Shop by category, brand and need.</h2>
+              </div>
+              <NextLink href="/shop" className={styles.underlinedAction}>Explore shop<ArrowRight aria-hidden="true" size={15} /></NextLink>
+            </div>
+            <div className={styles.wardrobeGrid}>
+              <article className={`${styles.wardrobeCard} ${styles.warm}`}>
+                <div className={styles.cardTopline}>
+                  <span className={styles.wardrobeLabel}>New arrivals</span>
+                  <span className={styles.cardMeta}>Fresh drops</span>
+                </div>
+                <div className={styles.cardBody}>
+                  <div className={styles.cardMainCopy}>
+                    <strong>New pieces, already sorted for you.</strong>
+                    <span className={styles.cardNote}>A quick route into the newest FARIS, LAAJ, LABANNYA and beauty additions—made for shoppers who want to see what changed first.</span>
+                    <span className={styles.cardChips} aria-label="New arrival departments">
+                      <span>Men</span>
+                      <span>Women</span>
+                      <span>Innerwear</span>
+                      <span>Beauty</span>
+                    </span>
+                  </div>
+                  <span className={styles.cardVisual} aria-hidden="true">
+                    {[referenceAssets.products[0], referenceAssets.products[2]].map((image) => (
+                      <span key={image} className={styles.cardThumb}>
+                        <Image src={image} alt="" fill sizes="180px" className={styles.cardThumbImage} />
+                      </span>
+                    ))}
+                  </span>
+                </div>
+                <div className={styles.cardFooter}>
+                  <NextLink href="/shop#flash-sale" className={styles.gatewayAction}>Explore new arrivals <ArrowRight aria-hidden="true" size={15} /></NextLink>
+                  <span className={styles.plusIcon} aria-hidden="true">+</span>
+                </div>
+              </article>
+
+              <article className={`${styles.wardrobeCard} ${styles.dark}`}>
+                <div className={styles.cardTopline}>
+                  <span className={styles.wardrobeLabel}>Best sellers</span>
+                  <span className={styles.cardMeta}>Popular now</span>
+                </div>
+                <div className={styles.cardBody}>
+                  <div className={styles.cardMainCopy}>
+                    <strong>Easy choices with a little proof.</strong>
+                    <span className={styles.cardNote}>The safer browse: customer favourites, gifting picks, perfume, cosmetics and repeat-worthy essentials in one recommendation feed.</span>
+                    <span className={styles.cardChips} aria-label="Best seller departments">
+                      <span>Popular</span>
+                      <span>Perfume</span>
+                      <span>Cosmetics</span>
+                      <span>Gifts</span>
+                    </span>
+                  </div>
+                  <span className={styles.cardVisual} aria-hidden="true">
+                    {[referenceAssets.products[1], referenceAssets.products[3]].map((image) => (
+                      <span key={image} className={styles.cardThumb}>
+                        <Image src={image} alt="" fill sizes="180px" className={styles.cardThumbImage} />
+                      </span>
+                    ))}
+                  </span>
+                </div>
+                <div className={styles.cardFooter}>
+                  <NextLink href="/shop#just-for-you" className={styles.gatewayAction}>View recommendations <ArrowRight aria-hidden="true" size={15} /></NextLink>
+                  <span className={styles.plusIcon} aria-hidden="true">+</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.campaign} aria-labelledby="campaign-title">
+          <div className={styles.campaignCopy}>
+            <p className={styles.eyebrow}>The current campaign</p>
+            <h2 id="campaign-title" className={styles.displayTitle}>Old Money, New Standard.</h2>
+            <p>A FARIS polo capsule shaped around clean collars, assured colour and the ease of pieces worth repeating.</p>
+            <NextLink href="/faris/polos" className={styles.underlinedAction}>View the campaign<ArrowRight aria-hidden="true" size={15} /></NextLink>
+          </div>
+          <div className={styles.campaignMedia}>
+            <Image src={referenceAssets.campaign} alt="FARIS Old Money polo collection campaign." width={960} height={400} sizes="(min-width: 900px) 58vw, 100vw" />
+          </div>
+        </section>
+
+        <section className={styles.products} aria-labelledby="featured-title">
+          <div className={styles.sectionInner}>
+            <div className={styles.sectionHeading}>
+              <div>
+                <p className={styles.eyebrow}>Featured pieces</p>
+                <h2 id="featured-title" className={styles.displayTitle}>The quiet essentials.</h2>
+              </div>
+              <NextLink href="/collection" className={styles.underlinedAction}>View the collection<ArrowRight aria-hidden="true" size={15} /></NextLink>
+            </div>
+            <div className={styles.productGrid}>
+              {featuredProducts.map((product, index) => (
+                <ProductCardWithSave
+                  key={product.id}
+                  product={product}
+                  variant="standard"
+                  imageRatio="portrait"
+                  priority={index < 2}
+                  viewProductLabel={`View ${product.title}`}
+                />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.journal} aria-labelledby="journal-title">
+          <div className={styles.sectionInner}>
+            <div className={styles.sectionHeading}>
+              <div>
+                <p className={styles.eyebrow}>The journal</p>
+                <h2 id="journal-title" className={styles.displayTitle}>Notes on craft.</h2>
+              </div>
+              <NextLink href="/journal" className={styles.underlinedAction}>Read the journal<ArrowRight aria-hidden="true" size={15} /></NextLink>
+            </div>
+            <div className={styles.journalGrid}>
+              {journalStories.map((story) => (
+                <NextLink key={story.href} href={story.href} className={styles.journalCard}>
+                  <span className={styles.journalMedia}>
+                    <Image src={story.image} alt={story.alt} fill sizes="(min-width: 768px) 50vw, 100vw" className={styles.journalImage} />
+                  </span>
+                  <span className={styles.journalContent}>
+                    <span className={styles.eyebrow}>{story.category}</span>
+                    <span className={styles.journalTitle}>{story.title}</span>
+                    <span className={styles.journalSummary}>{story.summary}</span>
+                    <span className={styles.gatewayAction}>Read story<ArrowRight aria-hidden="true" size={15} /></span>
+                  </span>
+                </NextLink>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.promises} aria-labelledby="promises-title">
+          <h2 id="promises-title" className="sr-only">Ordering with confidence</h2>
+          <div className={styles.promiseGrid}>
+            {servicePromises.map(({ icon: Icon, title, detail, href }) => (
+              <NextLink key={title} href={href} className={styles.promise}>
+                <Icon aria-hidden="true" size={22} strokeWidth={1.5} />
+                <span>
+                  <strong>{title}</strong>
+                  <small>{detail}</small>
+                </span>
+              </NextLink>
+            ))}
+          </div>
+        </section>
+
+        <section data-brand="campaign" className={styles.newsletter} aria-labelledby="newsletter-title">
+          <div className={styles.newsletterInner}>
+            <div>
+              <p className={styles.eyebrow}>Stay close</p>
+              <h2 id="newsletter-title" className={styles.newsletterTitle}>Letters from the house.</h2>
+              <p className={styles.newsletterCopy}>New collections, fabric stories and early access, a few times a season, never more.</p>
+            </div>
+            <form className={styles.newsletterForm} action="/contact" method="get">
+              <label htmlFor="home-newsletter-email" className="sr-only">Email address</label>
+              <input type="email" id="home-newsletter-email" name="email" autoComplete="email" placeholder="Email address" required />
+              <input type="hidden" name="topic" value="newsletter" />
+              <button type="submit" aria-label="Continue to newsletter contact">Subscribe<ArrowRight aria-hidden="true" size={16} /></button>
+            </form>
+          </div>
+        </section>
+      </div>
     </SiteShell>
   );
 }
