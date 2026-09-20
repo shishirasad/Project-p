@@ -1,0 +1,686 @@
+[
+  {
+    "viewport": "desktop",
+    "route": "/",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/",
+    "navError": null,
+    "title": "Porsion Studio | The House Behind Faris and Laaj | Porsion Studio",
+    "h1": [
+      "Porsion Studio"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 4230,
+    "images": 13,
+    "broken": [],
+    "bodyText": 1409,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/faris",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/faris",
+    "navError": null,
+    "title": "Faris - Timeless Quiet Luxury Menswear | Porsion Studio",
+    "h1": [
+      "Faris"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 8792,
+    "images": 14,
+    "broken": [],
+    "bodyText": 3688,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/laaj",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/laaj",
+    "navError": null,
+    "title": "Laaj - Refined Modest Fashion & Womenswear | Porsion Studio",
+    "h1": [
+      "Laaj"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 10062,
+    "images": 15,
+    "broken": [],
+    "bodyText": 4364,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/collection",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/collection",
+    "navError": null,
+    "title": "Shop Faris & Laaj | Porsion Studio",
+    "h1": [
+      "Faris and Laaj, inside one house."
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 6190,
+    "images": 26,
+    "broken": [],
+    "bodyText": 2658,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/product/old-money-polo",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/product/old-money-polo",
+    "navError": null,
+    "title": "Old Money Polo | Faris | Porsion Studio",
+    "h1": [
+      "Old Money Polo"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 5525,
+    "images": 9,
+    "broken": [],
+    "bodyText": 2895,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/search",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/search",
+    "navError": null,
+    "title": "Search | Porsion Studio",
+    "h1": [
+      "Find the right piece, without the noise."
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 2762,
+    "images": 8,
+    "broken": [],
+    "bodyText": 997,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/cart",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/cart",
+    "navError": null,
+    "title": "Bag | Porsion Studio",
+    "h1": [
+      "Ready when you are."
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 1310,
+    "images": 2,
+    "broken": [],
+    "bodyText": 679,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/checkout",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/checkout",
+    "navError": null,
+    "title": "Checkout | Porsion Studio",
+    "h1": [
+      "Delivery, payment, done."
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 1802,
+    "images": 2,
+    "broken": [],
+    "bodyText": 1387,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/account",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/account",
+    "navError": null,
+    "title": "Account | Porsion Studio",
+    "h1": [
+      "One calm place for every order."
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 1294,
+    "images": 2,
+    "broken": [],
+    "bodyText": 928,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/wishlist",
+    "status": 404,
+    "finalUrl": "http://localhost:3000/wishlist",
+    "navError": null,
+    "title": "Porsion Studio",
+    "h1": [
+      "This page is not available."
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 1000,
+    "images": 1,
+    "broken": [],
+    "bodyText": 186,
+    "runtimeErrors": [
+      "console:Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  },
+  {
+    "viewport": "desktop",
+    "route": "/journal",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/journal",
+    "navError": null,
+    "title": "The Journal | Porsion Studio",
+    "h1": [
+      "Stories for a more considered wardrobe."
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 2528,
+    "images": 8,
+    "broken": [],
+    "bodyText": 1566,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/the-house",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/the-house",
+    "navError": null,
+    "title": "The House | Porsion Studio",
+    "h1": [
+      "The House of Timeless Fashion."
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 4685,
+    "images": 4,
+    "broken": [],
+    "bodyText": 2428,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/contact",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/contact",
+    "navError": null,
+    "title": "à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦— | Porsion Studio",
+    "h1": [
+      "à¦•à§€à¦­à¦¾à¦¬à§‡ à¦¸à¦¾à¦¹à¦¾à¦¯à§à¦¯ à¦•à¦°à¦¤à§‡ à¦ªà¦¾à¦°à¦¿?"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 1542,
+    "images": 2,
+    "broken": [],
+    "bodyText": 1824,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/delivery",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/delivery",
+    "navError": null,
+    "title": "ডেলিভারি নীতিমালা | Porsion Studio",
+    "h1": [
+      "ডেলিভারি নীতিমালা"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 2491,
+    "images": 2,
+    "broken": [],
+    "bodyText": 2819,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/returns",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/returns",
+    "navError": null,
+    "title": "পণ্যফেরত, বিনিময় ও মূল্যফেরত | Porsion Studio",
+    "h1": [
+      "পণ্যফেরত, বিনিময় ও মূল্যফেরত"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 2912,
+    "images": 2,
+    "broken": [],
+    "bodyText": 3727,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/privacy",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/privacy",
+    "navError": null,
+    "title": "গোপনীয়তা নীতিমালা | Porsion Studio",
+    "h1": [
+      "গোপনীয়তা নীতিমালা"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 2491,
+    "images": 2,
+    "broken": [],
+    "bodyText": 2676,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "desktop",
+    "route": "/terms",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/terms",
+    "navError": null,
+    "title": "শর্তাবলি | Porsion Studio",
+    "h1": [
+      "শর্তাবলি"
+    ],
+    "width": {
+      "scroll": 1440,
+      "client": 1440
+    },
+    "height": 2664,
+    "images": 2,
+    "broken": [],
+    "bodyText": 3265,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/",
+    "navError": null,
+    "title": "Porsion Studio | The House Behind Faris and Laaj | Porsion Studio",
+    "h1": [
+      "Porsion Studio"
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 5694,
+    "images": 13,
+    "broken": [],
+    "bodyText": 1412,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/faris",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/faris",
+    "navError": null,
+    "title": "Faris - Timeless Quiet Luxury Menswear | Porsion Studio",
+    "h1": [
+      "Faris"
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 12413,
+    "images": 14,
+    "broken": [],
+    "bodyText": 3684,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/laaj",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/laaj",
+    "navError": null,
+    "title": "Laaj - Refined Modest Fashion & Womenswear | Porsion Studio",
+    "h1": [
+      "Laaj"
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 14133,
+    "images": 15,
+    "broken": [],
+    "bodyText": 4360,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/collection",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/collection",
+    "navError": null,
+    "title": "Shop Faris & Laaj | Porsion Studio",
+    "h1": [
+      "Faris and Laaj, inside one house."
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 18186,
+    "images": 26,
+    "broken": [],
+    "bodyText": 2661,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/product/old-money-polo",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/product/old-money-polo",
+    "navError": null,
+    "title": "Old Money Polo | Faris | Porsion Studio",
+    "h1": [
+      "Old Money Polo"
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 8336,
+    "images": 9,
+    "broken": [],
+    "bodyText": 2891,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/search",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/search",
+    "navError": null,
+    "title": "Search | Porsion Studio",
+    "h1": [
+      "Find the right piece, without the noise."
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 5821,
+    "images": 8,
+    "broken": [],
+    "bodyText": 1000,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/cart",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/cart",
+    "navError": null,
+    "title": "Bag | Porsion Studio",
+    "h1": [
+      "Ready when you are."
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 1918,
+    "images": 2,
+    "broken": [],
+    "bodyText": 682,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/checkout",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/checkout",
+    "navError": null,
+    "title": "Checkout | Porsion Studio",
+    "h1": [
+      "Delivery, payment, done."
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 3491,
+    "images": 2,
+    "broken": [],
+    "bodyText": 1390,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/account",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/account",
+    "navError": null,
+    "title": "Account | Porsion Studio",
+    "h1": [
+      "One calm place for every order."
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 2613,
+    "images": 2,
+    "broken": [],
+    "bodyText": 931,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/wishlist",
+    "status": 404,
+    "finalUrl": "http://localhost:3000/wishlist",
+    "navError": null,
+    "title": "Porsion Studio",
+    "h1": [
+      "This page is not available."
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 844,
+    "images": 1,
+    "broken": [],
+    "bodyText": 189,
+    "runtimeErrors": [
+      "console:Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  },
+  {
+    "viewport": "mobile",
+    "route": "/journal",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/journal",
+    "navError": null,
+    "title": "The Journal | Porsion Studio",
+    "h1": [
+      "Stories for a more considered wardrobe."
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 5626,
+    "images": 8,
+    "broken": [],
+    "bodyText": 1569,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/the-house",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/the-house",
+    "navError": null,
+    "title": "The House | Porsion Studio",
+    "h1": [
+      "The House of Timeless Fashion."
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 5635,
+    "images": 4,
+    "broken": [],
+    "bodyText": 2431,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/contact",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/contact",
+    "navError": null,
+    "title": "à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦— | Porsion Studio",
+    "h1": [
+      "à¦•à§€à¦­à¦¾à¦¬à§‡ à¦¸à¦¾à¦¹à¦¾à¦¯à§à¦¯ à¦•à¦°à¦¤à§‡ à¦ªà¦¾à¦°à¦¿?"
+    ],
+    "width": {
+      "scroll": 396,
+      "client": 390
+    },
+    "height": 3041,
+    "images": 2,
+    "broken": [],
+    "bodyText": 1827,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/delivery",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/delivery",
+    "navError": null,
+    "title": "ডেলিভারি নীতিমালা | Porsion Studio",
+    "h1": [
+      "ডেলিভারি নীতিমালা"
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 3628,
+    "images": 2,
+    "broken": [],
+    "bodyText": 2822,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/returns",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/returns",
+    "navError": null,
+    "title": "পণ্যফেরত, বিনিময় ও মূল্যফেরত | Porsion Studio",
+    "h1": [
+      "পণ্যফেরত, বিনিময় ও মূল্যফেরত"
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 4449,
+    "images": 2,
+    "broken": [],
+    "bodyText": 3730,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/privacy",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/privacy",
+    "navError": null,
+    "title": "গোপনীয়তা নীতিমালা | Porsion Studio",
+    "h1": [
+      "গোপনীয়তা নীতিমালা"
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 3567,
+    "images": 2,
+    "broken": [],
+    "bodyText": 2679,
+    "runtimeErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "route": "/terms",
+    "status": 200,
+    "finalUrl": "http://localhost:3000/terms",
+    "navError": null,
+    "title": "শর্তাবলি | Porsion Studio",
+    "h1": [
+      "শর্তাবলি"
+    ],
+    "width": {
+      "scroll": 390,
+      "client": 390
+    },
+    "height": 3913,
+    "images": 2,
+    "broken": [],
+    "bodyText": 3268,
+    "runtimeErrors": []
+  }
+]

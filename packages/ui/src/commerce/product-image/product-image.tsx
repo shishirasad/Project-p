@@ -1,4 +1,4 @@
-﻿import type { HTMLAttributes, ReactNode } from "react";
+import type { HTMLAttributes, ReactNode } from "react";
 import { cn } from "../../lib/cn";
 import { Skeleton } from "../../primitives/skeleton";
 import type { CommerceImage, CommerceImageFit, CommerceImageRatio } from "../types";
@@ -25,8 +25,10 @@ export function ProductImage({ image, ratio = "portrait", fit = "cover", priorit
         alt={image.alt}
         width={image.width}
         height={image.height}
+        style={{ objectPosition: image.position }}
         loading={priority ? "eager" : "lazy"}
         decoding={priority ? "sync" : "async"}
+        fetchPriority={priority ? "high" : "auto"}
       />
       {isLoading ? <Skeleton className="absolute inset-0 z-20 h-full w-full rounded-none border-0" aria-hidden="true" /> : null}
       {overlay ? <div className="absolute inset-x-3 top-3 z-30 flex justify-end gap-2">{overlay}</div> : null}

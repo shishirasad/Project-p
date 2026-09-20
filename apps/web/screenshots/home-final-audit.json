@@ -1,0 +1,106 @@
+[
+  {
+    "viewport": "desktop",
+    "navigationInteraction": "desktop-mega-menu-pass",
+    "errors": [],
+    "failed": [],
+    "metrics": {
+      "h1Count": 1,
+      "sectionOrder": [
+        "Porsion Studio",
+        "Choose by wardrobe. Remember the name.",
+        "One company. Distinct identities.",
+        "Selected pieces from across the House.",
+        "Shop across the House.",
+        "Built for customers. Open to serious partnership.",
+        "Ideas behind the brands."
+      ],
+      "pageHeight": 5496,
+      "viewportCount": 6.1,
+      "horizontalOverflow": 0,
+      "loadedImages": 13,
+      "failedImages": [],
+      "desktopNavVisible": true,
+      "hamburgerVisible": false,
+      "smallTargetCount": 0
+    }
+  },
+  {
+    "viewport": "laptop",
+    "navigationInteraction": "desktop-mega-menu-pass",
+    "errors": [],
+    "failed": [],
+    "metrics": {
+      "h1Count": 1,
+      "sectionOrder": [
+        "Porsion Studio",
+        "Choose by wardrobe. Remember the name.",
+        "One company. Distinct identities.",
+        "Selected pieces from across the House.",
+        "Shop across the House.",
+        "Built for customers. Open to serious partnership.",
+        "Ideas behind the brands."
+      ],
+      "pageHeight": 5575,
+      "viewportCount": 7.3,
+      "horizontalOverflow": 0,
+      "loadedImages": 13,
+      "failedImages": [],
+      "desktopNavVisible": true,
+      "hamburgerVisible": false,
+      "smallTargetCount": 0
+    }
+  },
+  {
+    "viewport": "tablet",
+    "navigationInteraction": "mobile-drawer-pass",
+    "errors": [],
+    "failed": [],
+    "metrics": {
+      "h1Count": 1,
+      "sectionOrder": [
+        "Porsion Studio",
+        "Choose by wardrobe. Remember the name.",
+        "One company. Distinct identities.",
+        "Selected pieces from across the House.",
+        "Shop across the House.",
+        "Built for customers. Open to serious partnership.",
+        "Ideas behind the brands."
+      ],
+      "pageHeight": 6328,
+      "viewportCount": 6.2,
+      "horizontalOverflow": 0,
+      "loadedImages": 13,
+      "failedImages": [],
+      "desktopNavVisible": false,
+      "hamburgerVisible": true,
+      "smallTargetCount": 0
+    }
+  },
+  {
+    "viewport": "mobile",
+    "navigationInteraction": "mobile-drawer-pass",
+    "errors": [],
+    "failed": [],
+    "metrics": {
+      "h1Count": 1,
+      "sectionOrder": [
+        "Porsion Studio",
+        "Choose by wardrobe. Remember the name.",
+        "One company. Distinct identities.",
+        "Selected pieces from across the House.",
+        "Shop across the House.",
+        "Built for customers. Open to serious partnership.",
+        "Ideas behind the brands."
+      ],
+      "pageHeight": 7729,
+      "viewportCount": 9.2,
+      "horizontalOverflow": 0,
+      "loadedImages": 13,
+      "failedImages": [],
+      "desktopNavVisible": false,
+      "hamburgerVisible": true,
+      "smallTargetCount": 0
+    }
+  }
+]

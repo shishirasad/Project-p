@@ -14,7 +14,7 @@ export type DesktopNavbarProps = HTMLAttributes<HTMLElement> & {
   onItemSelect?: (item: NavigationItem) => void;
 };
 
-const itemClasses = "inline-flex min-h-11 items-center px-2 text-xs uppercase tracking-[0.18em] text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-accent)]";
+const itemClasses = "inline-flex min-h-11 items-center px-2 text-[0.8125rem] font-medium text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-accent)]";
 const activeItemClasses = "text-[var(--color-accent)]";
 const actionClasses = "relative inline-flex h-11 min-w-11 items-center justify-center rounded-[var(--radius-sm)] px-3 text-[var(--color-text)] transition-colors hover:bg-[var(--color-hover-surface)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-accent)] disabled:pointer-events-none disabled:opacity-50";
 
@@ -40,7 +40,7 @@ function DesktopNavigationAction({ action, active }: { action: NavigationAction;
   const content = (
     <>
       {action.icon ? <span aria-hidden="true" className="inline-flex">{action.icon}</span> : null}
-      <span className={action.icon ? "sr-only" : "text-xs uppercase tracking-[0.14em]"}>{action.label}</span>
+      <span className={action.icon ? "sr-only" : "text-[0.8125rem] font-medium"}>{action.label}</span>
       {action.badge ? <span className="ml-1 text-xs text-[var(--color-accent)]">{action.badge}</span> : null}
     </>
   );

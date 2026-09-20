@@ -17,7 +17,7 @@ export type HeroProps = HTMLAttributes<HTMLElement> & {
 const heightClasses = {
   medium: "min-h-[560px]",
   large: "min-h-[680px]",
-  screen: "min-h-[min(820px,92vh)]"
+  screen: "min-h-[min(740px,86svh)] md:min-h-[min(820px,92vh)]"
 };
 
 export function Hero({ media, title, eyebrow, description, actions, align = "start", priority = true, height = "screen", className, ...props }: HeroProps) {
@@ -26,9 +26,9 @@ export function Hero({ media, title, eyebrow, description, actions, align = "sta
       <div className="absolute inset-0" aria-hidden="true">{renderEditorialMedia(media, undefined, priority)}</div>
       <div className="absolute inset-0 bg-[var(--color-background)] opacity-25" aria-hidden="true" />
       <div className={cn("relative z-10 mx-auto flex min-h-[inherit] w-full max-w-[var(--container-max)] flex-col justify-end px-[var(--gutter)] py-14 md:py-20", editorialAlignClasses[align])}>
-        <div className="max-w-3xl space-y-5">
+        <div className="max-w-[52rem] space-y-5">
           {eyebrow ? <p className={editorialEyebrowClass}>{eyebrow}</p> : null}
-          <h1 className="text-5xl font-medium leading-tight text-[var(--color-text)] md:text-7xl">{title}</h1>
+          <h1 className="max-w-[15ch] text-balance font-serif text-5xl font-normal leading-[1.03] text-[var(--color-text)] md:text-7xl xl:text-[5.25rem]">{title}</h1>
           {description ? <p className={cn(editorialBodyClass, "max-w-2xl")}>{description}</p> : null}
           {renderActions(actions)}
         </div>

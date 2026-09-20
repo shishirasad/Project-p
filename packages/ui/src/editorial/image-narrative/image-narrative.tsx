@@ -18,12 +18,12 @@ export function ImageNarrative({ media, title, eyebrow, caption, children, class
       <Container className="grid gap-6">
         <figure className="grid gap-4">
           <div className="aspect-[16/9] overflow-hidden rounded-[var(--radius-sm)] bg-[var(--color-hover-surface)]">{renderEditorialMedia(media)}</div>
-          {caption ? <figcaption className="text-sm leading-6 text-[var(--color-text-muted)]">{caption}</figcaption> : null}
+          {caption ? <figcaption className="text-[0.9375rem] leading-[1.65] text-[var(--color-text-muted)]">{caption}</figcaption> : null}
         </figure>
         {(title || eyebrow || children) ? (
           <div className="max-w-3xl space-y-3">
             {eyebrow ? <p className={editorialEyebrowClass}>{eyebrow}</p> : null}
-            {title ? <h2 className="text-3xl font-medium leading-tight text-[var(--color-text)] md:text-5xl">{title}</h2> : null}
+            {title ? <h2 className="max-w-[18ch] text-balance font-serif text-[2.125rem] font-normal leading-[1.14] text-[var(--color-text)] md:text-5xl">{title}</h2> : null}
             {children ? <div className={editorialBodyClass}>{children}</div> : null}
           </div>
         ) : null}

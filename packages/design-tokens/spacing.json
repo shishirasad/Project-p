@@ -14,7 +14,7 @@
   "layout": {
     "containerMax": "1440px",
     "containerEditorial": "1120px",
-    "containerReading": "720px",
+    "containerReading": "680px",
     "containerCheckout": "1180px",
     "gutterMobile": "16px",
     "gutterTablet": "24px",

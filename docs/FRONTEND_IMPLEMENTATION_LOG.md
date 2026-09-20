@@ -578,15 +578,69 @@ Verification:
 - `pnpm qa:storybook` green: 97 default stories, 131 visual baseline stories, 262 screenshots, 0 accessibility violations, 0 responsive overflow failures, 0 touch target failures
 - Static layout/editorial audit found no API calls, cart flow, checkout flow, storage usage, or hardcoded hex/rgb/hsl component colors.
 
-## Phase 3 - Homepage Implementation
+## Phase 3 - Storefront Page Assembly
 
-Status: Next
+Status: Complete for the static frontend experience. The remaining launch work is backend and content integration, not missing storefront routes.
 
-Phase 2 is complete. Sprint 2.8 is the final component sprint. Do not add another foundation, design-system, documentation, or shared-component sprint before Homepage.
+Completed routes:
 
-Phase 3 rule:
+- House and brand entry: `/`, `/faris`, `/laaj`, `/the-house`
+- Discovery: `/collection`, `/search`, `/journal`, `/journal/[slug]`
+- Commerce UI: `/product/[slug]`, `/cart`, `/checkout`, `/order-confirmed`
+- Customer and care: `/account`, `/account/wishlist`, `/delivery`, `/returns`, `/contact`
 
-- No new shared component by default.
-- Compose Homepage from the existing primitives, navigation, commerce, editorial, and layout components.
-- If a new shared component is requested during Homepage, first prove why the existing component library cannot cover it.
+Architecture notes:
 
+- Faris and Laaj are distinct themed storefront contexts over one shared static catalog source.
+- No new shared `packages/ui` component was added. Page assembly reuses the established component library.
+- Product, bag, checkout, search, and account routes are intentionally frontend-only. They contain no API calls, persistence, payment processing, authentication, or analytics vendor code.
+- Product routes include Product JSON-LD; public content routes include route metadata and canonical URLs.
+
+Verification:
+
+- `pnpm typecheck` green
+- `pnpm lint` green
+- `pnpm test` green: 97 test files, 121 tests passing
+- `pnpm build` green: 23 routes generated, including four static product pages and two static journal articles
+- Route smoke audit green: all 25 public customer routes returned HTTP 200 with page titles
+
+Remaining for launch:
+
+- Replace launch-preview catalog data and generated campaign photography with approved Faris and Laaj product data, final photography, pricing, size charts, and approved policy copy.
+- Connect the API-first backend for catalog, inventory, cart persistence, authentication, wishlists, checkout, orders, support, and analytics.
+- Connect Bangladesh payments, courier services, transactional notifications, and legal/policy content before accepting public orders.
+
+Phase 3 rule remains:
+
+- Keep page composition within the existing component library by default.
+- Add a shared component only when a real recurring UI need cannot be covered by the current library.
+
+## Frontend-only Catalog Contract
+
+Status: Backend intentionally deferred.
+
+- Catalog lifecycle fields and merchandising flags are represented in frontend data only.
+- No database, admin panel, API request, inventory sync, checkout service, or persistence layer is implemented in this phase.
+- A future backend may hydrate the same lifecycle and merchandising contract without changing storefront component APIs.
+- Inactive data remains in the master catalog but is excluded from customer-facing navigation, collection results, product routes, search, and sitemap output.
+- Category editorial assets and representative product assets remain separate records.
+
+Faris frontend contract:
+
+- Ten master categories: Shirts, T-Shirts, Polos, Trousers & Pants, Knitwear, Outerwear, Panjabi / Traditional, Shorts, Accessories, and Footwear.
+- Launch-active categories: Shirts, T-Shirts, Polos, Trousers & Pants, and Panjabi / Traditional.
+- Blazer and the complete suiting family are explicitly outside the Faris catalog.
+- One complete representative product is prepared for every category; only representatives in active categories are public.
+
+Laaj final frontend contract (queued after Faris verification):
+
+- Laaj is the umbrella womenswear brand. Womens innerwear is a Laaj category, not a separate brand or route.
+- Main merchandising: New Arrivals, Best Sellers, Collections, and Sale.
+- Clothing: Dresses, Abaya, Modest Wear, Kurti, Kameez, 2-Piece Sets, 3-Piece Sets, Tops & Tunics, Skirts, Pants & Trousers, and Outerwear.
+- Innerwear: Bras, Panties, Bra & Panty Sets, Camisoles, Slips, Inner Tops, Inner Shorts, Shapewear, and Leggings.
+- Hijab & Modest: Hijab, Instant Hijab, Hijab Sets, Underscarf, and Modest Accessories.
+- Lounge & Sleep: Nightwear, Sleepwear Sets, Lounge Sets, Robes, and Homewear.
+- Accessories: Handbags, Wallets, Scarves, Jewelry, Hair Accessories, and Brooches.
+- Footwear: Flats, Heels, Sandals, Loafers, Mules, and Sneakers.
+- Collection pages: Ramadan, Eid, Wedding, Festive, Office, Casual, Premium, and Essentials.
+- Planned routes include `/laaj/innerwear`, `/laaj/abaya`, `/laaj/dresses`, and `/laaj/hijab`; their active/inactive behavior remains frontend data until backend work begins.

@@ -1,4 +1,4 @@
-export type BrandContext = "house" | "faris" | "laaj" | "campaign";
+export type BrandContext = "house" | "faris" | "laaj" | "labannya" | "campaign";
 
 export type BrandDefinition = {
   id: BrandContext;

@@ -28,7 +28,7 @@ export function BrandGateway({ title, eyebrow, description, items, className, ..
         {(title || eyebrow || description) ? (
           <div className="max-w-3xl space-y-3">
             {eyebrow ? <p className={editorialEyebrowClass}>{eyebrow}</p> : null}
-            {title ? <h2 className="text-3xl font-medium leading-tight text-[var(--color-text)] md:text-5xl">{title}</h2> : null}
+            {title ? <h2 className="max-w-[18ch] text-balance font-serif text-[2.125rem] font-normal leading-[1.14] text-[var(--color-text)] md:text-5xl">{title}</h2> : null}
             {description ? <p className={editorialBodyClass}>{description}</p> : null}
           </div>
         ) : null}
@@ -38,9 +38,9 @@ export function BrandGateway({ title, eyebrow, description, items, className, ..
               <div className="aspect-[4/5] overflow-hidden rounded-[var(--radius-sm)] bg-[var(--color-hover-surface)]">{renderEditorialMedia(item.media)}</div>
               <div className="grid gap-2 px-1 pb-1">
                 {item.eyebrow ? <p className={editorialEyebrowClass}>{item.eyebrow}</p> : null}
-                <h3 className="text-2xl font-medium leading-tight text-[var(--color-text)]">{item.name}</h3>
-                {item.description ? <p className="text-sm leading-6 text-[var(--color-text-muted)]">{item.description}</p> : null}
-                {item.actionLabel ? <span className="inline-flex min-h-11 items-center text-xs uppercase tracking-[0.18em] text-[var(--color-text)]">{item.actionLabel}</span> : null}
+                <h3 className="text-balance font-serif text-[1.75rem] font-normal leading-[1.2] text-[var(--color-text)]">{item.name}</h3>
+                {item.description ? <p className="text-[0.9375rem] leading-[1.65] text-[var(--color-text-muted)]">{item.description}</p> : null}
+                {item.actionLabel ? <span className="inline-flex min-h-11 items-center text-[0.8125rem] font-medium text-[var(--color-text)]">{item.actionLabel}</span> : null}
               </div>
             </a>
           ))}

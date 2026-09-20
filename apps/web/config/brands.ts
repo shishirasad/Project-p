@@ -11,19 +11,27 @@ export const brandDefinitions: Record<BrandContext, BrandDefinition> = {
   },
   faris: {
     id: "faris",
-    name: "Faris",
-    label: "Faris",
+    name: "FARIS",
+    label: "FARIS",
     href: "/faris",
     positioning: "Timeless quiet luxury menswear",
     mood: ["structured", "confident", "old-money", "refined"]
   },
   laaj: {
     id: "laaj",
-    name: "Laaj",
-    label: "Laaj",
+    name: "LAAJ",
+    label: "LAAJ",
     href: "/laaj",
     positioning: "Refined modern womenswear",
     mood: ["elegant", "graceful", "modern", "premium"]
+  },
+  labannya: {
+    id: "labannya",
+    name: "Labannya",
+    label: "LABANNYA",
+    href: "/labannya",
+    positioning: "Comfort-led beauty and essentials",
+    mood: ["soft", "confident", "wellness", "daily"]
   },
   campaign: {
     id: "campaign",

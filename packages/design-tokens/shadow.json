@@ -2,6 +2,9 @@
   "shadow": {
     "none": "none",
     "hairline": "0 0 0 1px rgba(20,20,20,.08)",
+    "sm": "0 1px 2px rgba(20,20,20,.06)",
+    "md": "0 8px 28px rgba(20,20,20,.08)",
+    "lg": "0 18px 60px rgba(20,20,20,.16)",
     "soft": "0 8px 28px rgba(20,20,20,.08)",
     "overlay": "0 18px 60px rgba(20,20,20,.16)"
   },

@@ -25,7 +25,7 @@ export function SiteHeader({ brandContext = "house", transparent = false }: Site
       <Container className="flex h-[var(--nav-height-desktop)] items-center justify-between gap-8 max-lg:h-[var(--nav-height-mobile)]">
         <Link href="/" className="flex items-center gap-3" aria-label="Porsion Studio home">
           <Image
-            src="/brand-assets/porsion-studio-logo-mark.jpg"
+            src="/brand-assets/porsion-studio-round-lockup.png"
             alt="Porsion Studio mark"
             width={42}
             height={42}

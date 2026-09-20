@@ -1,5 +1,7 @@
 import type { HTMLAttributes, KeyboardEvent, ReactNode } from "react";
+import { MessageCircle } from "lucide-react";
 import { cn } from "../../lib/cn";
+import { IconButton } from "../../primitives/icon-button";
 import { ProductImage } from "../product-image";
 import { ProductTitle } from "../product-title";
 import { ProductPrice } from "../product-price";
@@ -15,6 +17,7 @@ export type ProductCardProps = Omit<HTMLAttributes<HTMLElement>, "onSelect"> & {
   viewProductLabel?: string;
   addToBagLabel?: string;
   wishlistLabel?: string;
+  enquiryLabel?: string;
   compareLabel?: string;
   isWishlisted?: boolean;
   isCompared?: boolean;
@@ -24,6 +27,7 @@ export type ProductCardProps = Omit<HTMLAttributes<HTMLElement>, "onSelect"> & {
   onProductSelect?: (product: ProductCardProduct) => void;
   onAddToBag?: (product: ProductCardProduct) => void;
   onWishlist?: (product: ProductCardProduct) => void;
+  onEnquiry?: (product: ProductCardProduct) => void;
   onCompare?: (product: ProductCardProduct) => void;
 };
 
@@ -40,6 +44,7 @@ export function ProductCard({
   viewProductLabel,
   addToBagLabel,
   wishlistLabel,
+  enquiryLabel,
   compareLabel,
   isWishlisted = false,
   isCompared = false,
@@ -49,13 +54,14 @@ export function ProductCard({
   onProductSelect,
   onAddToBag,
   onWishlist,
+  onEnquiry,
   onCompare,
   className,
   ...props
 }: ProductCardProps) {
   const resolvedImageRatio = imageRatio ?? (variant === "compact" ? "square" : "portrait");
   const contentClassName = "grid min-w-0 gap-0 rounded-[var(--radius-sm)] transition duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-accent)]";
-  const hasActions = Boolean((onAddToBag && addToBagLabel) || (onWishlist && wishlistLabel) || (onCompare && compareLabel));
+  const hasActions = Boolean((onAddToBag && addToBagLabel) || (onWishlist && wishlistLabel) || (onEnquiry && enquiryLabel) || (onCompare && compareLabel));
   const linkSelectionProps = onProductSelect ? { onClick: () => onProductSelect(product) } : undefined;
   const productContent = (
     <>
@@ -94,6 +100,7 @@ export function ProductCard({
         <div className="flex min-w-0 flex-wrap items-center gap-2">
           {onAddToBag && addToBagLabel ? <AddToBagButton className="flex-1" label={addToBagLabel} onClick={() => onAddToBag(product)} /> : null}
           {onWishlist && wishlistLabel ? <WishlistButton ariaLabel={wishlistLabel} isSelected={isWishlisted} onClick={() => onWishlist(product)} /> : null}
+          {onEnquiry && enquiryLabel ? <IconButton ariaLabel={enquiryLabel} title={enquiryLabel} icon={<MessageCircle aria-hidden="true" size={17} strokeWidth={1.8} />} onClick={() => onEnquiry(product)} /> : null}
           {onCompare && compareLabel ? <CompareButton ariaLabel={compareLabel} isSelected={isCompared} onClick={() => onCompare(product)} /> : null}
         </div>
       ) : null}

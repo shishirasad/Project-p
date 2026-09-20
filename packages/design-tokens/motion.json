@@ -3,7 +3,8 @@
     "fast": "120ms",
     "base": "180ms",
     "slow": "280ms",
-    "page": "420ms"
+    "page": "420ms",
+    "drawer": "220ms"
   },
   "easing": {
     "standard": "cubic-bezier(.2, .0, .0, 1)",

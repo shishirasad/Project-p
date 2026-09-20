@@ -7,17 +7,16 @@ export type NavigationItem = {
 };
 
 export const primaryNavigation: NavigationItem[] = [
-  { label: "The Collection", href: "/collection" },
-  { label: "Faris", href: "/faris", brandContext: "faris" },
-  { label: "Laaj", href: "/laaj", brandContext: "laaj" },
-  { label: "The Journal", href: "/journal" },
-  { label: "The House", href: "/the-house", brandContext: "house" }
+  { label: "Shop", href: "/shop" },
+  { label: "FARIS", href: "/faris", brandContext: "faris" },
+  { label: "LAAJ", href: "/laaj", brandContext: "laaj" },
+  { label: "LABANNYA", href: "/labannya", brandContext: "labannya" },
+  { label: "Journal", href: "/journal" }
 ];
 
 export const mobileNavigation: NavigationItem[] = [
   { label: "Home", href: "/" },
   { label: "Search", href: "/search" },
-  { label: "Collection", href: "/collection" },
-  { label: "Wishlist", href: "/account/wishlist" },
-  { label: "Bag", href: "/cart" }
+  { label: "Bag", href: "/cart" },
+  { label: "Chat", href: "/contact" }
 ];

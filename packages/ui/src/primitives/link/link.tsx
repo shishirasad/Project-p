@@ -9,7 +9,7 @@ export type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
 const variantClasses = {
   default: "text-[var(--color-text)] hover:text-[var(--color-accent)]",
   subtle: "text-[var(--color-text-muted)] hover:text-[var(--color-text)]",
-  nav: "text-xs uppercase tracking-[0.18em] text-[var(--color-text-muted)] hover:text-[var(--color-text)]",
+  nav: "text-[0.8125rem] font-medium text-[var(--color-text-muted)] hover:text-[var(--color-text)]",
   underline: "text-[var(--color-text)] underline underline-offset-4 hover:text-[var(--color-accent)]"
 };
 

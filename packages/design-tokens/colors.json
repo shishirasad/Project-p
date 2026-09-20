@@ -8,9 +8,19 @@
     "smoke": "#5F5C55",
     "silk": "#ECE7DF",
     "brass": "#9B7A4A",
+    "brassDeep": "#7A5A32",
+    "brassLight": "#C59A60",
     "forest": "#24342B",
     "oxblood": "#5B2530",
     "mineral": "#D9E3E2",
+    "rosePaper": "#FFFAF6",
+    "roseInk": "#1D1A1A",
+    "roseMuted": "#6A5D5C",
+    "roseLine": "#EADFD6",
+    "roseClay": "#B77A67",
+    "rosewood": "#826A5B",
+    "roseHover": "#F9F1EB",
+    "campaignBorder": "rgba(247,246,241,.18)",
     "error": "#B42318",
     "success": "#1E6B45",
     "warning": "#A15C07",
@@ -23,10 +33,10 @@
       "text": "{core.ink}",
       "textMuted": "{core.smoke}",
       "border": "{core.stone}",
-      "accent": "{core.brass}",
+      "accent": "{core.brassDeep}",
       "accentSecondary": "{core.forest}",
       "hoverSurface": "{core.silk}",
-      "onAccent": "{core.ink}",
+      "onAccent": "{core.white}",
       "onError": "{core.white}"
     },
     "faris": {
@@ -51,6 +61,30 @@
       "accentSecondary": "{core.brass}",
       "hoverSurface": "{core.silk}",
       "onAccent": "{core.paper}",
+      "onError": "{core.white}"
+    },
+    "labannya": {
+      "background": "{core.rosePaper}",
+      "surface": "{core.white}",
+      "text": "{core.roseInk}",
+      "textMuted": "{core.roseMuted}",
+      "border": "{core.roseLine}",
+      "accent": "{core.roseClay}",
+      "accentSecondary": "{core.rosewood}",
+      "hoverSurface": "{core.roseHover}",
+      "onAccent": "{core.white}",
+      "onError": "{core.white}"
+    },
+    "campaign": {
+      "background": "{core.ink}",
+      "surface": "{core.charcoal}",
+      "text": "{core.paper}",
+      "textMuted": "{core.stone}",
+      "border": "{core.campaignBorder}",
+      "accent": "{core.brassLight}",
+      "accentSecondary": "{core.silk}",
+      "hoverSurface": "{core.charcoal}",
+      "onAccent": "{core.ink}",
       "onError": "{core.white}"
     }
   }

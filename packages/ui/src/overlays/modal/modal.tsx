@@ -32,8 +32,8 @@ export function Modal({ isOpen, title, description, children, footer, closeLabel
 
   return (
     <div className="fixed inset-0 z-[var(--z-modal)] grid min-h-dvh place-items-center overflow-y-auto bg-[var(--color-text)]/40 p-[var(--gutter)] text-[var(--color-text)]" onMouseDown={(event) => { if (dismissible && event.target === event.currentTarget) close(); }}>
-      <div ref={panelRef} tabIndex={-1} role="dialog" aria-modal="true" aria-labelledby={titleId} aria-describedby={description ? descriptionId : undefined} className={cn("grid w-full gap-5 rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] p-5 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-accent)]", overlaySizeClasses[size], className)} {...props}>
-        <div className="flex min-h-11 items-start justify-between gap-4">
+      <div ref={panelRef} tabIndex={-1} role="dialog" aria-modal="true" aria-labelledby={titleId} aria-describedby={description ? descriptionId : undefined} className={cn("flex max-h-[calc(100dvh-2rem)] w-full flex-col gap-5 overflow-hidden rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] p-5 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-accent)]", overlaySizeClasses[size], className)} {...props}>
+        <div className="flex min-h-11 shrink-0 items-start justify-between gap-4">
           <div className="grid gap-2">
             <h2 id={titleId} className="text-lg font-medium text-[var(--color-text)]">{title}</h2>
             {description ? <p id={descriptionId} className="text-sm leading-6 text-[var(--color-text-muted)]">{description}</p> : null}
@@ -43,8 +43,8 @@ export function Modal({ isOpen, title, description, children, footer, closeLabel
             <span aria-hidden="true">x</span>
           </button>
         </div>
-        {children ? <div className="text-sm leading-6 text-[var(--color-text-muted)]">{children}</div> : null}
-        {footer ? <div className="flex flex-wrap items-center justify-end gap-3 border-t border-[var(--color-border)] pt-4">{footer}</div> : null}
+        {children ? <div className="min-h-0 overflow-y-auto overscroll-contain text-sm leading-6 text-[var(--color-text-muted)]">{children}</div> : null}
+        {footer ? <div className="flex shrink-0 flex-wrap items-center justify-end gap-3 border-t border-[var(--color-border)] pt-4">{footer}</div> : null}
       </div>
     </div>
   );

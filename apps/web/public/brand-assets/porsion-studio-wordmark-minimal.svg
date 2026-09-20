@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+  <title id="title">Porsion Studio</title>
+  <desc id="desc">Minimal Porsion Studio fashion house wordmark</desc>
+  <g fill="#181714" text-anchor="middle">
+    <text x="320" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="400">PORSION</text>
+    <text x="320" y="128" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="500">STUDIO</text>
+  </g>
+  <g fill="none" stroke="#181714" stroke-width="1.5">
+    <path d="M154 122H266" />
+    <path d="M374 122H486" />
+  </g>
+</svg>

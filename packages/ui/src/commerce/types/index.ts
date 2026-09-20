@@ -11,6 +11,7 @@ export type CommerceImage = {
   alt: string;
   width?: number;
   height?: number;
+  position?: string;
   srcSet?: string;
   sizes?: string;
   placeholder?: ReactNode;

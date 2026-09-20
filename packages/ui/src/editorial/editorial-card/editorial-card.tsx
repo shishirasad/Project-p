@@ -19,9 +19,9 @@ export function EditorialCard({ href, media, title, eyebrow, excerpt, meta, acti
       <div className="aspect-[4/5] overflow-hidden rounded-[var(--radius-sm)] bg-[var(--color-hover-surface)]">{renderEditorialMedia(media)}</div>
       <div className="grid gap-2 pt-4">
         {eyebrow ? <p className={editorialEyebrowClass}>{eyebrow}</p> : null}
-        <h3 className="text-2xl font-medium leading-tight text-[var(--color-text)]">{title}</h3>
-        {excerpt ? <p className="text-sm leading-6 text-[var(--color-text-muted)]">{excerpt}</p> : null}
-        <div className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.14em] text-[var(--color-text-muted)]">
+        <h3 className="text-balance font-serif text-[1.75rem] font-normal leading-[1.2] text-[var(--color-text)]">{title}</h3>
+        {excerpt ? <p className="text-[0.9375rem] leading-[1.65] text-[var(--color-text-muted)]">{excerpt}</p> : null}
+        <div className="flex flex-wrap items-center gap-3 text-[0.8125rem] font-medium text-[var(--color-text-muted)]">
           {meta ? <span>{meta}</span> : null}
           {actionLabel ? <span className="text-[var(--color-text)]">{actionLabel}</span> : null}
         </div>

@@ -1,0 +1,55 @@
+:root {
+  --announcement-height: 0px;
+}
+
+.icon-action {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+[data-brand] {
+  transition:
+    background-color 220ms cubic-bezier(.2, 0, 0, 1),
+    color 220ms cubic-bezier(.2, 0, 0, 1),
+    border-color 220ms cubic-bezier(.2, 0, 0, 1);
+}
+
+.storefront-route-enter {
+  animation: storefront-route-enter 320ms cubic-bezier(.2, 0, 0, 1) backwards;
+}
+
+.storefront-route-enter section[id] {
+  scroll-margin-top: calc(var(--announcement-height) + var(--nav-height-mobile) + 16px);
+}
+
+@media (min-width: 1024px) {
+  .storefront-route-enter section[id] {
+    scroll-margin-top: calc(var(--announcement-height) + var(--nav-height-desktop) + 16px);
+  }
+}
+
+@keyframes storefront-route-enter {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .storefront-route-enter {
+    animation: none;
+  }
+}
+
+header[data-solid="false"] .icon-action {
+  color: #ffffff;
+}
+
+header[data-solid="false"] .icon-action:hover {
+  background: rgb(255 255 255 / 0.12);
+}

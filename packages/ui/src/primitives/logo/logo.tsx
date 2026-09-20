@@ -1,4 +1,4 @@
-﻿import type { HTMLAttributes } from "react";
+import type { HTMLAttributes } from "react";
 import { cn } from "../../lib/cn";
 
 export type LogoProps = HTMLAttributes<HTMLAnchorElement | HTMLDivElement> & {
@@ -8,7 +8,7 @@ export type LogoProps = HTMLAttributes<HTMLAnchorElement | HTMLDivElement> & {
   variant?: "mark" | "lockup";
 };
 
-export function Logo({ className, href, markSrc = "/brand-assets/porsion-studio-logo-mark.jpg", label = "Porsion Studio", variant = "lockup", ...props }: LogoProps) {
+export function Logo({ className, href, markSrc = "/brand-assets/porsion-studio-round-lockup.png", label = "Porsion Studio", variant = "lockup", ...props }: LogoProps) {
   const content = (
     <>
       <img src={markSrc} alt="" aria-hidden="true" className="h-9 w-9 rounded-full object-cover" />

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "home",
+    "path": "/",
+    "violations": []
+  },
+  {
+    "name": "faris",
+    "path": "/faris",
+    "violations": []
+  },
+  {
+    "name": "laaj",
+    "path": "/laaj",
+    "violations": []
+  },
+  {
+    "name": "collection",
+    "path": "/collection",
+    "violations": []
+  },
+  {
+    "name": "product",
+    "path": "/product/old-money-polo",
+    "violations": []
+  },
+  {
+    "name": "bag",
+    "path": "/cart?item=old-money-polo&color=midnight&size=M&quantity=1",
+    "violations": []
+  },
+  {
+    "name": "checkout",
+    "path": "/checkout?item=old-money-polo&color=midnight&size=M&quantity=1",
+    "violations": []
+  },
+  {
+    "name": "delivery",
+    "path": "/delivery",
+    "violations": []
+  },
+  {
+    "name": "returns",
+    "path": "/returns",
+    "violations": []
+  },
+  {
+    "name": "privacy",
+    "path": "/privacy",
+    "violations": []
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "violations": []
+  },
+  {
+    "name": "terms",
+    "path": "/terms",
+    "violations": []
+  }
+]

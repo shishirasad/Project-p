@@ -1,4 +1,4 @@
-﻿import type { Preview } from "@storybook/nextjs-vite";
+import type { Preview } from "@storybook/nextjs-vite";
 import "../app/globals.css";
 
 const preview: Preview = {
@@ -11,8 +11,10 @@ const preview: Preview = {
         icon: "circlehollow",
         items: [
           { value: "house", title: "House" },
-          { value: "faris", title: "Faris" },
-          { value: "laaj", title: "Laaj" }
+          { value: "faris", title: "FARIS" },
+          { value: "laaj", title: "LAAJ" },
+          { value: "labannya", title: "LABANNYA" },
+          { value: "campaign", title: "Campaign" }
         ]
       }
     }

@@ -2,8 +2,8 @@ import type { ReactNode } from "react";
 import { cn } from "../../lib/cn";
 import type { EditorialAlign, EditorialImageRatio, EditorialMedia } from "../types";
 
-export const editorialEyebrowClass = "text-xs uppercase tracking-[0.18em] text-[var(--color-text-muted)]";
-export const editorialBodyClass = "text-base leading-7 text-[var(--color-text-muted)]";
+export const editorialEyebrowClass = "text-[0.8125rem] font-medium uppercase leading-5 text-[var(--color-text-muted)]";
+export const editorialBodyClass = "max-w-[65ch] text-base leading-[1.7] text-[var(--color-text-muted)] md:text-lg";
 
 export const editorialAlignClasses: Record<EditorialAlign, string> = {
   start: "items-start text-left",
@@ -38,6 +38,7 @@ export function renderEditorialMedia(media: EditorialMedia, className?: string, 
       height={media.height}
       loading={priority ? "eager" : "lazy"}
       decoding={priority ? "sync" : "async"}
+      fetchPriority={priority ? "high" : "auto"}
     />
   );
 }

@@ -50,6 +50,13 @@ This folder is the long-term documentation architecture for Porsion Studio as an
 19. `19_Design_Tokens_Repository.md` - token naming, storage, export, Tailwind/CSS variable mapping
 20. `20_Storybook_Component_Library.md` - Storybook structure, stories, docs, variants, visual testing
 
+## Active Implementation Brief
+
+- `STOREFRONT_EXPERIENCE_BUILD_BRIEF.md` - Canonical House/Faris/Laaj/Shop/Wholesale model, multi-surface journeys, future domain strategy, personalization, search, recommendations, conversion, and shared-platform rules.
+- `COMPETITOR_FRONTEND_AUDIT_2026.md` - ILLIYEEN, YELLOW, ARJO, and AMIRA frontend findings with Porsion-specific Adopt/Adapt/Avoid decisions.
+- `FRONTEND_COMPLETION_WORKLIST.md` - Prioritized, estimated, execution-ready frontend launch checklist.
+- `LUXURY_INTERACTION_AND_ROUTE_CHOREOGRAPHY_SPEC.md` - Locked customer-experience grammar for header, mega menu, brand transitions, route choreography, recovery, consent, wishlist, and account states.
+
 ## Frontend Documentation Flow
 
 For frontend work, only these 9 documents are required. After these are complete, the next step is Figma design and coding, not more frontend documentation.

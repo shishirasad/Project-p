@@ -7,12 +7,15 @@ describe("ProductCard", () => {
   it("renders product content and emits action callbacks", () => {
     const onAddToBag = vi.fn();
     const onWishlist = vi.fn();
-    render(<ProductCard product={sampleProduct} viewProductLabel="View product" addToBagLabel="Add to bag" wishlistLabel="Save" onAddToBag={onAddToBag} onWishlist={onWishlist} />);
+    const onEnquiry = vi.fn();
+    render(<ProductCard product={sampleProduct} viewProductLabel="View product" addToBagLabel="Add to bag" wishlistLabel="Save" enquiryLabel="Ask about this product" onAddToBag={onAddToBag} onWishlist={onWishlist} onEnquiry={onEnquiry} />);
     expect(screen.getByText("Faris Old Money Polo")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Add to bag" }));
     fireEvent.click(screen.getByRole("button", { name: "Save" }));
+    fireEvent.click(screen.getByRole("button", { name: "Ask about this product" }));
     expect(onAddToBag).toHaveBeenCalledWith(sampleProduct);
     expect(onWishlist).toHaveBeenCalledWith(sampleProduct);
+    expect(onEnquiry).toHaveBeenCalledWith(sampleProduct);
   });
 
   it("uses a semantic role button fallback without nesting headings in a native button", () => {

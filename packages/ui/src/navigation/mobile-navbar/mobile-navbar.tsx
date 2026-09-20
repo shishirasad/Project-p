@@ -11,7 +11,7 @@ export type MobileNavbarProps = HTMLAttributes<HTMLElement> & {
   leadingSlot?: ReactNode;
 };
 
-const itemClasses = "relative flex min-h-14 min-w-11 flex-1 flex-col items-center justify-center gap-1 px-1 text-[11px] uppercase tracking-[0.08em] text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] disabled:pointer-events-none disabled:opacity-50";
+const itemClasses = "relative flex min-h-14 min-w-11 flex-1 flex-col items-center justify-center gap-1 px-1 text-xs font-medium text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] disabled:pointer-events-none disabled:opacity-50";
 
 function MobileNavigationAction({ action, active }: { action: NavigationAction; active: boolean }) {
   const content = (
